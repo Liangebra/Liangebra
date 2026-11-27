@@ -40,7 +40,7 @@
 
 ### 理论研究与形式化数学
 
-<img align="right" src="./assets/characters/37-peek.svg" width="116" alt="重返未来：1999 的 37">
+<img align="right" src="./assets/characters/37-classroom.svg" width="185" alt="重返未来：1999 的 37">
 
 **[Computational Metaknowledge](https://github.com/Liangebra/computational-metaknowledge)**
 
@@ -49,6 +49,16 @@
 **[黎曼猜想社区项目](https://github.com/leanprover-community/riemann-hypothesis)**
 
 主要在做一些证明可读性、数学抽象及冗余依赖方面的工作。 · [我的 PR](https://github.com/leanprover-community/riemann-hypothesis/pulls?q=is%3Apr+author%3ALiangebra)
+
+### DeepSeek Harness 插件生态
+
+<a href="https://github.com/vlln/whale-girl"><img align="right" src="https://raw.githubusercontent.com/vlln/whale-girl/c3f4afb400755062991c7e9991b745b3016abeeb/docs/preview/think.gif" width="105" alt="鲸鱼娘思考动画"></a>
+
+我也参与了 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 的开源插件开发。
+
+[whale-girl](https://github.com/vlln/whale-girl)：新增独立桌面伴侣，支持透明置顶窗口与插件状态实时同步。 [已合并的 PR #8](https://github.com/vlln/whale-girl/pull/8)。
+
+[dsh-bash-terminal](https://github.com/MAXeaglet/dsh-bash-terminal)：通过直接接入 `node-pty` 修复 Windows 交互式终端的兼容性问题。 [已合并的 PR #2](https://github.com/MAXeaglet/dsh-bash-terminal/pull/2)。
 
 ### 数学建模与软件开发
 

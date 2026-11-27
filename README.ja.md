@@ -40,7 +40,7 @@
 
 ### 理論研究と形式化数学
 
-<img align="right" src="./assets/characters/37-peek.svg" width="116" alt="リバース：1999 の 37">
+<img align="right" src="./assets/characters/37-classroom.svg" width="185" alt="リバース：1999 の 37">
 
 **[Computational Metaknowledge](https://github.com/Liangebra/computational-metaknowledge)**
 
@@ -49,6 +49,16 @@
 **[リーマン予想のコミュニティプロジェクト](https://github.com/leanprover-community/riemann-hypothesis)**
 
 証明の可読性、数学的抽象化、不要な依存関係の整理に取り組んでいます。 · [私の PR](https://github.com/leanprover-community/riemann-hypothesis/pulls?q=is%3Apr+author%3ALiangebra)
+
+### DeepSeek Harness のプラグイン開発
+
+<a href="https://github.com/vlln/whale-girl"><img align="right" src="https://raw.githubusercontent.com/vlln/whale-girl/c3f4afb400755062991c7e9991b745b3016abeeb/docs/preview/think.gif" width="105" alt="クジラ娘の思考アニメーション"></a>
+
+[DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) のオープンソース・プラグイン開発にも参加しています。
+
+[whale-girl](https://github.com/vlln/whale-girl)：透明な常時最前面ウィンドウとプラグイン状態のリアルタイム同期を備えた独立デスクトップコンパニオンを追加。 [マージ済み PR #8](https://github.com/vlln/whale-girl/pull/8)。
+
+[dsh-bash-terminal](https://github.com/MAXeaglet/dsh-bash-terminal)：`node-pty` への直接接続により Windows の対話型端末の互換性を修正。 [マージ済み PR #2](https://github.com/MAXeaglet/dsh-bash-terminal/pull/2)。
 
 ### 数学モデリングとソフトウェア
 

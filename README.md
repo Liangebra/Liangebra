@@ -40,7 +40,7 @@ The idea is to let the two expressions share a mathematical structure and allow 
 
 ### Theory and formalization
 
-<img align="right" src="./assets/characters/37-peek.svg" width="116" alt="37 from Reverse: 1999">
+<img align="right" src="./assets/characters/37-classroom.svg" width="185" alt="37 from Reverse: 1999">
 
 **[Computational Metaknowledge](https://github.com/Liangebra/computational-metaknowledge)**
 
@@ -49,6 +49,16 @@ Computability and what an agent can know. · [Paper](https://github.com/Liangebr
 **[Riemann Hypothesis community project](https://github.com/leanprover-community/riemann-hypothesis)**
 
 Work on proof readability, mathematical abstraction and redundant dependencies in the Lean community project. · [My PRs](https://github.com/leanprover-community/riemann-hypothesis/pulls?q=is%3Apr+author%3ALiangebra)
+
+### DeepSeek Harness plugin contributions
+
+<a href="https://github.com/vlln/whale-girl"><img align="right" src="https://raw.githubusercontent.com/vlln/whale-girl/c3f4afb400755062991c7e9991b745b3016abeeb/docs/preview/think.gif" width="105" alt="Whale Girl thinking animation"></a>
+
+I also contribute to the [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) plugin ecosystem.
+
+[whale-girl](https://github.com/vlln/whale-girl) — added a standalone desktop companion with a transparent always-on-top window and live plugin state synchronization. [Merged PR #8](https://github.com/vlln/whale-girl/pull/8).
+
+[dsh-bash-terminal](https://github.com/MAXeaglet/dsh-bash-terminal) — fixed Windows interactive terminal support through direct `node-pty` integration. [Merged PR #2](https://github.com/MAXeaglet/dsh-bash-terminal/pull/2).
 
 ### Modeling and software
 
