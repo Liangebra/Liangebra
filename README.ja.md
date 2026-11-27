@@ -16,6 +16,12 @@
 
 最近は主に LeanDuet を開発しながら、Lean のオープンソース活動にも参加しています。他のリポジトリには、数学モデリングのコンテストをきっかけに作ったものや、面白そうだと思って試したものがあります。
 
+<p align="center">
+  <a href="https://github.com/hereisVaibhav/termfolio"><img src="./assets/termfolio/terminal.ja.svg" alt="端末：関心分野と現在の計画" width="100%"></a>
+  <br>
+  <sub><a href="https://github.com/hereisVaibhav/termfolio">Termfolio / ~/.plan</a></sub>
+</p>
+
 ## プロジェクトと研究
 
 ### [LeanDuet](https://github.com/Liangebra/leanduet)
@@ -92,6 +98,8 @@
 </p>
 
 </details>
+
+<p align="center"><a href="https://github.com/TheMysteriousGhost/pixel-profile"><img src="./assets/pixel-profile/divider.svg" width="100%" alt=""></a></p>
 
 ## 盆栽と猫
 
