@@ -67,6 +67,17 @@
 </div>
 
 
+<!-- yourtomo-pet -->
+<div align="center">
+  <a href="https://github.com/knowprasad/YourTomo">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./assets/pet/pet.svg">
+      <source media="(prefers-color-scheme: light)" srcset="./assets/pet/pet-light.svg">
+      <img src="./assets/pet/pet-light.svg" alt="GitHub 上的猫" width="100%">
+    </picture>
+  </a>
+</div>
+
 <!-- contribution-art -->
 ## 一些小玩意
 

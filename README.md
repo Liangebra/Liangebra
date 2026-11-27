@@ -67,6 +67,17 @@ If you're interested in any of these, feel free to open an issue or discussion. 
 </div>
 
 
+<!-- yourtomo-pet -->
+<div align="center">
+  <a href="https://github.com/knowprasad/YourTomo">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./assets/pet/pet.svg">
+      <source media="(prefers-color-scheme: light)" srcset="./assets/pet/pet-light.svg">
+      <img src="./assets/pet/pet-light.svg" alt="My GitHub cat" width="100%">
+    </picture>
+  </a>
+</div>
+
 <!-- contribution-art -->
 ## A little extra
 
