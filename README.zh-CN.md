@@ -1,5 +1,10 @@
 <div align="center">
-  <img src="./assets/cover.svg" alt="Liangebra — Understanding mathematics through structure" width="100%">
+  <h1>Liangebra</h1>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Noto+Sans+SC&amp;weight=500&amp;size=19&amp;duration=3400&amp;pause=1200&amp;color=A9B1D6&amp;center=true&amp;vCenter=true&amp;width=700&amp;height=48&amp;lines=%E9%80%9A%E8%BF%87%E7%BB%93%E6%9E%84%E7%90%86%E8%A7%A3%E6%95%B0%E5%AD%A6%E3%80%82;%E5%BD%A2%E5%BC%8F%E5%8C%96%E6%95%B0%E5%AD%A6%20%C2%B7%20%E7%B1%BB%E5%9E%8B%E8%AE%BA%20%C2%B7%20%E5%8F%AF%E8%AE%A1%E7%AE%97%E6%80%A7;%E4%BB%8E%E6%95%B0%E5%AD%A6%E6%80%9D%E6%83%B3%E5%88%B0%E5%8F%AF%E6%89%A7%E8%A1%8C%E7%9A%84%E7%BB%93%E6%9E%84%E3%80%82">
+    <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=Noto+Sans+SC&amp;weight=500&amp;size=19&amp;duration=3400&amp;pause=1200&amp;color=5A5893&amp;center=true&amp;vCenter=true&amp;width=700&amp;height=48&amp;lines=%E9%80%9A%E8%BF%87%E7%BB%93%E6%9E%84%E7%90%86%E8%A7%A3%E6%95%B0%E5%AD%A6%E3%80%82;%E5%BD%A2%E5%BC%8F%E5%8C%96%E6%95%B0%E5%AD%A6%20%C2%B7%20%E7%B1%BB%E5%9E%8B%E8%AE%BA%20%C2%B7%20%E5%8F%AF%E8%AE%A1%E7%AE%97%E6%80%A7;%E4%BB%8E%E6%95%B0%E5%AD%A6%E6%80%9D%E6%83%B3%E5%88%B0%E5%8F%AF%E6%89%A7%E8%A1%8C%E7%9A%84%E7%BB%93%E6%9E%84%E3%80%82">
+    <img src="https://readme-typing-svg.demolab.com?font=Noto+Sans+SC&amp;weight=500&amp;size=19&amp;duration=3400&amp;pause=1200&amp;color=5A5893&amp;center=true&amp;vCenter=true&amp;width=700&amp;height=48&amp;lines=%E9%80%9A%E8%BF%87%E7%BB%93%E6%9E%84%E7%90%86%E8%A7%A3%E6%95%B0%E5%AD%A6%E3%80%82;%E5%BD%A2%E5%BC%8F%E5%8C%96%E6%95%B0%E5%AD%A6%20%C2%B7%20%E7%B1%BB%E5%9E%8B%E8%AE%BA%20%C2%B7%20%E5%8F%AF%E8%AE%A1%E7%AE%97%E6%80%A7;%E4%BB%8E%E6%95%B0%E5%AD%A6%E6%80%9D%E6%83%B3%E5%88%B0%E5%8F%AF%E6%89%A7%E8%A1%8C%E7%9A%84%E7%BB%93%E6%9E%84%E3%80%82" alt="通过结构理解数学。" width="700">
+  </picture>
   <br>
   <a href="https://github.com/Liangebra">English</a> &nbsp; | &nbsp; <strong>简体中文</strong> &nbsp; | &nbsp; <a href="https://github.com/Liangebra/Liangebra/blob/main/README.ja.md">日本語</a>
   <br><br>
@@ -50,12 +55,38 @@ $$
 
 欢迎交流数学语言、形式化数学与开源科研工具，也欢迎合作。
 
+## 05 / 研究活动
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Liangebra&amp;theme=tokyonight">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Liangebra&amp;theme=default">
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Liangebra&amp;theme=default" alt="GitHub contribution overview" width="100%">
+  </picture>
+  <br>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Liangebra&amp;theme=tokyonight">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Liangebra&amp;theme=default">
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Liangebra&amp;theme=default" alt="GitHub public activity statistics" width="48%">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Liangebra&amp;theme=tokyonight">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Liangebra&amp;theme=default">
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Liangebra&amp;theme=default" alt="Repository language distribution" width="48%">
+  </picture>
+  <br>
+  <sub>公开 GitHub 活动 · 自动生成 · <a href="https://github.com/vn7n24fzkq/github-profile-summary-cards">Summary Cards</a></sub>
+</div>
+
+
 ---
 
 <div align="center">
   <sub>構造から、数学へ。</sub>
   <br>
   <i>从数学思想到可执行的结构。</i>
+  <br>
+  <a href="https://github.com/DenverCoder1/readme-typing-svg"><sub>Typing SVG</sub></a>
   <br><br>
   <a href="https://github.com/Liangebra">English</a> &nbsp; | &nbsp; <strong>简体中文</strong> &nbsp; | &nbsp; <a href="https://github.com/Liangebra/Liangebra/blob/main/README.ja.md">日本語</a>
 </div>
