@@ -31,6 +31,6 @@ const profile = {
   joinedYear: Number(u.createdAt.slice(0, 4)), followers: u.followers.totalCount,
   totalStars: u.repositories.nodes.reduce((sum, r) => sum + r.stargazerCount, 0),
   contributions: { total: cal.totalContributions, days: cal.weeks.flatMap(w => w.contributionDays.map(d => ({date: d.date, count: d.contributionCount}))) },
-  languages: [...langs.values()].sort((a,b) => b.bytes-a.bytes).map(v => ({...v, percent: totalBytes ? v.bytes/totalBytes*100 : 0})),
+  languages: [...langs.values()].sort((a,b) => b.bytes-a.bytes).map(v => ({...v, share: totalBytes ? v.bytes/totalBytes : 0})),
 };
 writeFileSync(process.argv[2], JSON.stringify(profile));
