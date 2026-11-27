@@ -1,15 +1,14 @@
-<div align="center">
-  <h1>Liangebra</h1>
-  <a href="https://github.com/Liangebra">English</a> &nbsp; / &nbsp; <strong>简体中文</strong> &nbsp; / &nbsp; <a href="https://github.com/Liangebra/Liangebra/blob/main/README.ja.md">日本語</a>
-  <br>
+<p align="center"><a href="https://github.com/Liangebra">English</a> &nbsp; / &nbsp; <strong>简体中文</strong> &nbsp; / &nbsp; <a href="https://github.com/Liangebra/Liangebra/blob/main/README.ja.md">日本語</a></p>
+
+<!-- singularity-art -->
+<p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Noto+Sans+SC&amp;weight=500&amp;size=19&amp;duration=3400&amp;pause=1200&amp;color=A9B1D6&amp;center=true&amp;vCenter=true&amp;width=520&amp;height=48&amp;lines=%E6%95%B0%E5%AD%A6%E4%B8%8E%E5%BA%94%E7%94%A8%E6%95%B0%E5%AD%A6;%E6%8B%93%E6%89%91%20%2F%20%E4%BB%A3%E6%95%B0%20%2F%20Lean">
-    <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=Noto+Sans+SC&amp;weight=500&amp;size=19&amp;duration=3400&amp;pause=1200&amp;color=5A5893&amp;center=true&amp;vCenter=true&amp;width=520&amp;height=48&amp;lines=%E6%95%B0%E5%AD%A6%E4%B8%8E%E5%BA%94%E7%94%A8%E6%95%B0%E5%AD%A6;%E6%8B%93%E6%89%91%20%2F%20%E4%BB%A3%E6%95%B0%20%2F%20Lean">
-    <img src="https://readme-typing-svg.demolab.com?font=Noto+Sans+SC&amp;weight=500&amp;size=19&amp;duration=3400&amp;pause=1200&amp;color=5A5893&amp;center=true&amp;vCenter=true&amp;width=520&amp;height=48&amp;lines=%E6%95%B0%E5%AD%A6%E4%B8%8E%E5%BA%94%E7%94%A8%E6%95%B0%E5%AD%A6;%E6%8B%93%E6%89%91%20%2F%20%E4%BB%A3%E6%95%B0%20%2F%20Lean" alt="数学与应用数学" width="520">
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/singularity/hero-dark.svg">
+    <img src="./assets/singularity/hero-light.svg" alt="Singularity — Liangebra" width="100%">
   </picture>
-  <br>
-  <a href="https://github.com/journey-ad/Moe-Counter"><img src="https://count.getloli.com/@Liangebra-profile?theme=asoul&amp;padding=5&amp;offset=0&amp;align=top&amp;scale=1&amp;pixelated=1&amp;darkmode=auto" alt="访客计数器" width="190"></a>
-</div>
+</p>
+
+<p align="center"><a href="https://github.com/journey-ad/Moe-Counter"><img src="https://count.getloli.com/@Liangebra-profile?theme=asoul&amp;padding=5&amp;offset=0&amp;align=top&amp;scale=1&amp;pixelated=1&amp;darkmode=auto" alt="访客计数器" width="190"></a></p>
 
 ## 研究兴趣
 
@@ -42,68 +41,73 @@
 
 ## 开源活动
 
+这里记录了过去一年的 GitHub 活动。
+
+<!-- singularity-telemetry-pending -->
+
+<!-- contribution-art -->
 <details>
-<summary><b>具体统计与贡献趋势</b></summary>
+<summary>其他贡献记录与统计</summary>
 
 <p align="center">
-  <picture><source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Liangebra&amp;theme=tokyonight"><img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Liangebra&amp;theme=default" alt="GitHub contribution trend" width="100%"></picture>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Liangebra&amp;theme=tokyonight"><img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Liangebra&amp;theme=default" alt="GitHub statistics" width="48%"></picture>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Liangebra&amp;theme=tokyonight"><img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Liangebra&amp;theme=default" alt="Repository language distribution" width="48%"></picture>
+  <a href="https://github.com/yoshi389111/github-profile-3d-contrib"><img src="./assets/generated/contributions-3d.svg" width="100%" alt="3D contribution calendar"></a>
   <br>
-  <sub><a href="https://github.com/vn7n24fzkq/github-profile-summary-cards">GitHub Profile Summary Cards</a></sub>
+  <sub><a href="https://github.com/yoshi389111/github-profile-3d-contrib">3D Contrib</a></sub>
+</p>
+
+<p align="center">
+  <a href="https://github.com/abozanona/pacman-contribution-graph"><picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/generated/pacman-contribution-graph-dark.svg">
+    <img src="./assets/generated/pacman-contribution-graph.svg" alt="Pac-Man contribution calendar" width="100%">
+  </picture></a>
+  <br>
+  <sub><a href="https://github.com/abozanona/pacman-contribution-graph">Pac-Man</a></sub>
+</p>
+
+<p align="center">
+  <a href="https://github.com/vn7n24fzkq/github-profile-summary-cards"><picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Liangebra&amp;theme=tokyonight">
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Liangebra&amp;theme=default" alt="Contribution trend" width="100%">
+  </picture></a>
+  <br>
+  <sub><a href="https://github.com/vn7n24fzkq/github-profile-summary-cards">Contribution trend</a></sub>
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Liangebra&amp;theme=tokyonight">
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Liangebra&amp;theme=default" alt="GitHub statistics" width="60%">
+  </picture>
+</p>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Liangebra&amp;theme=tokyonight">
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Liangebra&amp;theme=default" alt="Repository languages" width="60%">
+  </picture>
 </p>
 
 </details>
 
-### 贡献记录的两种表示
+## 盆景与猫
 
-这里是同一类贡献数据的两种表示：左边用黑洞吸积盘中的粒子表示每天的活动，右边用立体日历中柱子的高度表示贡献次数。
-
-<!-- singularity-art -->
-<!-- contribution-art -->
-<table>
-  <tr>
-    <td width="50%" align="center" valign="middle">
-      <a href="https://github.com/Dr-At0mic/README-Templates"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/singularity/hero-dark.svg"><img src="./assets/singularity/hero-light.svg" alt="Singularity / 吸积盘" width="100%"></picture></a>
-    </td>
-    <td width="50%" align="center" valign="middle">
-      <a href="https://github.com/yoshi389111/github-profile-3d-contrib"><img src="./assets/generated/contributions-3d.svg" alt="三维贡献日历" width="100%"></a>
-    </td>
-  </tr>
-  <tr>
-    <td align="center"><sub><a href="https://github.com/Dr-At0mic/README-Templates">Singularity / 吸积盘</a></sub></td>
-    <td align="center"><sub><a href="https://github.com/yoshi389111/github-profile-3d-contrib">三维贡献日历</a></sub></td>
-  </tr>
-</table>
-
+<!-- yourtomo-pet -->
 <p align="center">
-  <a href="https://github.com/abozanona/pacman-contribution-graph"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/generated/pacman-contribution-graph-dark.svg"><img src="./assets/generated/pacman-contribution-graph.svg" alt="贡献日历的游戏版本" width="100%"></picture></a>
+  <a href="https://github.com/knowprasad/YourTomo"><picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/pet/pet.svg">
+    <img src="./assets/pet/pet-light.svg" alt="YourTomo" width="100%">
+  </picture></a>
   <br>
-  <sub><a href="https://github.com/abozanona/pacman-contribution-graph">贡献日历的游戏版本</a></sub>
+  <sub><a href="https://github.com/knowprasad/YourTomo">一只随 GitHub 活动变化的猫。 · YourTomo</a></sub>
 </p>
 
-## 主页一角
-
-放两个个人比较喜欢的项目：一棵随 GitHub 记录生长的盆景，以及一只会随活动变化的猫。
-
 <!-- git-bonsai -->
-<!-- yourtomo-pet -->
-<table>
-  <tr>
-    <td width="31%" align="center" valign="middle">
-      <a href="https://github.com/egorthinks/git-bonsai"><img src="./assets/bonsai/bonsai.gif" width="170" alt="Git Bonsai / 盆景"></a>
-    </td>
-    <td width="69%" align="center" valign="middle">
-      <a href="https://github.com/knowprasad/YourTomo"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/pet/pet.svg"><img src="./assets/pet/pet-light.svg" alt="YourTomo / 像素猫" width="100%"></picture></a>
-    </td>
-  </tr>
-  <tr>
-    <td align="center"><sub><a href="https://github.com/egorthinks/git-bonsai">Git Bonsai / 盆景</a></sub></td>
-    <td align="center"><sub><a href="https://github.com/knowprasad/YourTomo">YourTomo / 像素猫</a></sub></td>
-  </tr>
-</table>
+<p align="center">
+  <a href="https://github.com/egorthinks/git-bonsai"><img src="./assets/bonsai/bonsai.gif" width="270" alt="Git Bonsai"></a>
+  <br>
+  <sub><a href="https://github.com/egorthinks/git-bonsai">一棵用 GitHub 记录养出来的盆景。 · Git Bonsai</a></sub>
+</p>
 
----
+<!-- singularity-end-pending -->
 
-<p align="center"><sub>图像根据 GitHub 活动生成，点击对应组件名称可查看原项目。 <a href="https://github.com/DenverCoder1/readme-typing-svg">Typing SVG</a> · <a href="https://github.com/journey-ad/Moe-Counter">Moe Counter</a></sub></p>
+<p align="center"><sub>主题来自 README Templates 的 Singularity，其他组件均已标注来源。 <a href="https://github.com/Dr-At0mic/README-Templates">README Templates</a> · <a href="https://github.com/journey-ad/Moe-Counter">Moe Counter</a></sub></p>
 <p align="center"><a href="https://github.com/Liangebra">English</a> &nbsp; / &nbsp; <strong>简体中文</strong> &nbsp; / &nbsp; <a href="https://github.com/Liangebra/Liangebra/blob/main/README.ja.md">日本語</a></p>
