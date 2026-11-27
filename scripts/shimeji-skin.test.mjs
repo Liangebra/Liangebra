@@ -7,7 +7,8 @@ for(const state of [base,{...base,contributions:0,activeDays:0,buildings:[]}]){
       const svg=renderTown(state,lang,'2026-11-27T06',event);
       assert.equal(svg,renderTown(state,lang,'2026-11-27T06',event));
       assert.match(svg,/^<svg [\s\S]*<\/svg>$/);
-      assert.doesNotMatch(svg,/NaN|undefined|<script|foreignObject/);
+      const invalid=svg.match(/NaN|undefined|<script|foreignObject/);
+      if(invalid) throw Error('Invalid SVG token: '+svg.slice(Math.max(0,invalid.index-100),invalid.index+100));
       assert.ok(svg.includes('prefers-reduced-motion'));
       assert.ok(svg.includes('viewBox="0 0 960 660"'));
       assert.ok(svg.includes('data-character="shijima"'));
