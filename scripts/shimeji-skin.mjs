@@ -15,8 +15,8 @@ export function renderTown(state, locale, slot, forcedEvent=null){
   let hash=2166136261;
   for(const ch of state.seed+"|"+slot){hash=Math.imul(hash^ch.charCodeAt(0),16777619)>>>0}
   let seed=hash; const rnd=()=>{seed=(Math.imul(seed,1664525)+1013904223)>>>0;return seed/4294967296};
-  const locations=Math.min(3,Math.max(1,state.buildings.length-2));
-  let place=Math.floor(rnd()*locations);
+  const locations=Math.min(3,Math.max(2,state.buildings.length-1));
+  let place=[0,2,1][Math.floor(rnd()*locations)];
   const event=forcedEvent===null?Math.floor(rnd()*t.events.length):forcedEvent;
   if(!Number.isInteger(event)||event<0||event>=t.events.length)throw Error("Invalid event");
   if(event===2)place=2; // school grounds can always be visited for club activity
