@@ -19,9 +19,13 @@
 
 ## 01 / About me
 
+<a href="https://github.com/SpiralKernel/catgirl-avatars"><img align="right" src="https://raw.githubusercontent.com/SpiralKernel/catgirl-avatars/main/docs/assets/thumbs/fairywren/02_blue_catgirl.webp" width="138" alt="Research notebook mascot"></a>
+
 I am a mathematics undergraduate interested in the structures behind mathematical reasoning and computation. I like to understand not only why a mathematical statement is true, but also the language and structures that make it natural.
 
 My interests include topology, algebra, dependent type theory, formal mathematics, computability, and mathematical modeling.
+
+<sub><a href="https://github.com/SpiralKernel/catgirl-avatars">Illustration: SpiralKernel / Catgirl Avatars</a></sub>
 
 ## 02 / Currently exploring
 
