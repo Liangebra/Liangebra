@@ -112,6 +112,21 @@ A view of the last year, generated from GitHub activity.
   </picture>
 </p>
 
+<!-- intaglio-art -->
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/intaglio/certificate-dark.svg">
+    <img src="./assets/intaglio/certificate-light.svg" alt="Research and open source — engraved certificate" width="100%">
+  </picture>
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/intaglio/coupons-dark.svg">
+    <img src="./assets/intaglio/coupons-light.svg" alt="Monthly contribution coupons" width="100%">
+  </picture>
+</p>
+
 <!-- contribution-art -->
 
 ### Contribution statistics
@@ -174,5 +189,5 @@ A view of the last year, generated from GitHub activity.
   <sub><a href="https://github.com/egorthinks/git-bonsai">A bonsai grown from my GitHub history. · Git Bonsai</a></sub>
 </p>
 
-<p align="center"><sub>Artwork: README Templates / Singularity. Thanks to the projects linked above. <a href="https://github.com/Dr-At0mic/README-Templates">README Templates</a> · <a href="https://github.com/journey-ad/Moe-Counter">Moe Counter</a></sub></p>
+<p align="center"><sub>Artwork: README Templates / Singularity & Intaglio. Thanks to the projects linked above. <a href="https://github.com/Dr-At0mic/README-Templates">README Templates</a> · <a href="https://github.com/journey-ad/Moe-Counter">Moe Counter</a></sub></p>
 <p align="center"><strong>English</strong> &nbsp; / &nbsp; <a href="https://github.com/Liangebra/Liangebra/blob/main/README.zh-CN.md">简体中文</a> &nbsp; / &nbsp; <a href="https://github.com/Liangebra/Liangebra/blob/main/README.ja.md">日本語</a></p>

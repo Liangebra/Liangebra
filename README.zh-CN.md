@@ -112,6 +112,21 @@
   </picture>
 </p>
 
+<!-- intaglio-art -->
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/intaglio/certificate-dark.svg">
+    <img src="./assets/intaglio/certificate-light.svg" alt="研究与开源雕版纹章" width="100%">
+  </picture>
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/intaglio/coupons-dark.svg">
+    <img src="./assets/intaglio/coupons-light.svg" alt="月度贡献票券" width="100%">
+  </picture>
+</p>
+
 <!-- contribution-art -->
 
 ### 贡献记录与统计
@@ -174,5 +189,5 @@
   <sub><a href="https://github.com/egorthinks/git-bonsai">一棵用 GitHub 记录养出来的盆景。 · Git Bonsai</a></sub>
 </p>
 
-<p align="center"><sub>主题来自 README Templates 的 Singularity，其他组件均已标注来源。 <a href="https://github.com/Dr-At0mic/README-Templates">README Templates</a> · <a href="https://github.com/journey-ad/Moe-Counter">Moe Counter</a></sub></p>
+<p align="center"><sub>主题来自 README Templates 的 Singularity 与 Intaglio，其他组件均已标注来源。 <a href="https://github.com/Dr-At0mic/README-Templates">README Templates</a> · <a href="https://github.com/journey-ad/Moe-Counter">Moe Counter</a></sub></p>
 <p align="center"><a href="https://github.com/Liangebra">English</a> &nbsp; / &nbsp; <strong>简体中文</strong> &nbsp; / &nbsp; <a href="https://github.com/Liangebra/Liangebra/blob/main/README.ja.md">日本語</a></p>

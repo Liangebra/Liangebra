@@ -1,4 +1,4 @@
-name: Grow profile garden and render Singularity
+name: Grow profile garden and render Singularity and Intaglio
 
 on:
   workflow_dispatch:
@@ -46,17 +46,22 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ github.token }}
         run: node scripts/template-profile.mjs "$RUNNER_TEMP/profile.json"
-      - name: Render original Singularity template
+      - name: Render Singularity and Intaglio from the same profile
         id: render
         if: steps.data.outcome == 'success'
         continue-on-error: true
         run: |
           sed -i "s|'../../lib/random'|'../../lib/random.js'|; s|'../pulsar/art'|'../pulsar/art.js'|" .template-source/src/templates/singularity/art.js
           sed -i "s|'../../lib/random'|'../../lib/random.js'|" .template-source/src/templates/pulsar/art.js
-          mkdir -p assets/singularity
+          sed -i "s|'../common'|'../common.js'|; s/public account in good standing/public account/g" .template-source/src/templates/intaglio/art.js
+          sed -i "s|'./pulsar/art'|'./pulsar/art.js'|" .template-source/src/templates/common.js
+          mkdir -p assets/singularity assets/intaglio
           node --input-type=module - "$RUNNER_TEMP/profile.json" <<'JS'
           import { readFileSync, writeFileSync } from 'node:fs';
           import { heroSvg, telemetrySvg, transmissionEndSvg } from './.template-source/src/templates/singularity/art.js';
+          import { heroSvg as engraving, couponsSvg, THEMES } from './.template-source/src/templates/intaglio/art.js';
+          Object.assign(THEMES.dark,{paper:'#101725',ink:'#dfd0a6',line:'#a9b7d6',muted:'#abb8cb',faint:'#28364c'});
+          Object.assign(THEMES.light,{paper:'#f7f3e9',ink:'#263c56',line:'#788da4',muted:'#536b81',faint:'#d8e0e7'});
           const profile = JSON.parse(readFileSync(process.argv[2], 'utf8'));
           for (const theme of ['dark', 'light']) {
             const opts = { missionName: 'Mathematics', signoff: 'See you around' };
@@ -65,8 +70,19 @@ jobs:
               if (!svg.includes('<svg') || !svg.includes('</svg>') || /(?:NaN|undefined|Infinity)/.test(svg)) throw Error('Invalid SVG: ' + name);
               writeFileSync('assets/singularity/' + name + '-' + theme + '.svg', svg);
             }
+            const engraved = { certificate: engraving(profile, theme, {heading:'Research & Open Source',title:'Mathematics and Applied Mathematics',organisation:'',signoff:'See you around'}), coupons: couponsSvg(profile, theme) };
+            for (const [name, svg] of Object.entries(engraved)) {
+              if (!svg.includes('<svg') || !svg.includes('</svg>') || /(?:NaN|undefined|Infinity)/.test(svg)) throw Error('Invalid Intaglio SVG: ' + name);
+              writeFileSync('assets/intaglio/' + name + '-' + theme + '.svg', svg);
+            }
           }
           JS
+          python - <<'PY'
+          from pathlib import Path
+          import xml.etree.ElementTree as ET
+          for path in [*Path('assets/singularity').glob('*.svg'), *Path('assets/intaglio').glob('*.svg')]:
+              ET.parse(path)
+          PY
       - name: Publish generated artwork
         env:
           BONSAI_OK: ${{ steps.bonsai.outcome }}
@@ -75,8 +91,8 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           if [ "$BONSAI_OK" = success ] && [ -s assets/bonsai/bonsai.gif ]; then git add assets/bonsai; fi
-          if [ "$TEMPLATE_OK" = success ]; then git add assets/singularity; else echo "Singularity renderer failed"; exit 1; fi
+          if [ "$TEMPLATE_OK" = success ]; then git add assets/singularity assets/intaglio; else echo "Profile artwork renderer failed"; exit 1; fi
           if git diff --cached --quiet; then exit 0; fi
-          git commit -m "Refresh profile garden and full Singularity artwork"
+          git commit -m "Refresh profile garden, Singularity and Intaglio artwork"
           git pull --rebase origin main
           git push origin HEAD:main

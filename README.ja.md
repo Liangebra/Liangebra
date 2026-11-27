@@ -112,6 +112,21 @@
   </picture>
 </p>
 
+<!-- intaglio-art -->
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/intaglio/certificate-dark.svg">
+    <img src="./assets/intaglio/certificate-light.svg" alt="研究とオープンソースの銅版画" width="100%">
+  </picture>
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/intaglio/coupons-dark.svg">
+    <img src="./assets/intaglio/coupons-light.svg" alt="月別コントリビューション記録" width="100%">
+  </picture>
+</p>
+
 <!-- contribution-art -->
 
 ### 活動記録と統計
@@ -174,5 +189,5 @@
   <sub><a href="https://github.com/egorthinks/git-bonsai">GitHub の活動記録から育つ盆栽。 · Git Bonsai</a></sub>
 </p>
 
-<p align="center"><sub>テーマは README Templates の Singularity。他のコンポーネントも出典を記載しています。 <a href="https://github.com/Dr-At0mic/README-Templates">README Templates</a> · <a href="https://github.com/journey-ad/Moe-Counter">Moe Counter</a></sub></p>
+<p align="center"><sub>テーマは README Templates の Singularity と Intaglio。他のコンポーネントも出典を記載しています。 <a href="https://github.com/Dr-At0mic/README-Templates">README Templates</a> · <a href="https://github.com/journey-ad/Moe-Counter">Moe Counter</a></sub></p>
 <p align="center"><a href="https://github.com/Liangebra">English</a> &nbsp; / &nbsp; <a href="https://github.com/Liangebra/Liangebra/blob/main/README.zh-CN.md">简体中文</a> &nbsp; / &nbsp; <strong>日本語</strong></p>
