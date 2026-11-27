@@ -19,9 +19,13 @@
 
 ## 01 / 关于我
 
+<a href="https://github.com/SpiralKernel/catgirl-avatars"><img align="right" src="https://raw.githubusercontent.com/SpiralKernel/catgirl-avatars/main/docs/assets/thumbs/fairywren/02_blue_catgirl.webp" width="138" alt="研究笔记的猫娘看板"></a>
+
 我是数学与应用数学专业本科生，关注数学推理与计算背后的结构。我不仅希望理解一个数学命题为什么成立，也希望理解使它自然呈现的语言与结构。
 
 我的兴趣包括拓扑、代数、依赖类型论、形式化数学、可计算性与数学建模。
+
+<sub><a href="https://github.com/SpiralKernel/catgirl-avatars">插画来源：SpiralKernel / Catgirl Avatars</a></sub>
 
 ## 02 / 正在探索
 
