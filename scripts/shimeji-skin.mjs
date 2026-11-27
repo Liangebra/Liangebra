@@ -5,9 +5,9 @@ import {fileURLToPath} from 'node:url';
 import {resolve} from 'node:path';
 export function renderTown(state, locale, slot, forcedEvent=null){
   const translations={
-    en:{title:"Shimeji Simulation",sub:"West Yomogi · Town diary",places:["After school","Residential street","Behind the school"],characters:["Shijima","Majime"],stats:["Contributions","Active days","Town locations"],events:["A quiet walk home.","A fish swims across the sky.","The hole-digging club is at work.","Rain falls upward.","A mysterious stone starts to glow.","Snow falls out of season.","A cloud takes the shape of a fish.","The streetlight turns on in daylight.","Two shadows walk the wrong way.","A paper plane forgets to land.","The moon comes a little closer.","Majime brings Shijima a book."],credit:"Unofficial fan skin · Characters and setting by Tsukumizu"},
-    "zh-CN":{title:"蘑菇的拟态日常",sub:"西蓬镇 · 小镇日记",places:["放学之后","住宅街","校舍后方"],characters:["月岛静寂","山下真面目"],stats:["贡献次数","活跃天数","已开放地点"],events:["一起走在放学路上。","一条鱼从天空游了过去。","挖洞社又开始工作了。","雨滴向天空落去。","路边的神秘石头发出了光。","不合时节的雪下了起来。","一朵云变成了鱼的形状。","路灯在白天亮了起来。","两个人的影子走反了方向。","纸飞机忘记了降落。","月亮又靠近了一点。","真面目给静寂带来一本书。"],credit:"非官方同人皮肤 · 人物与世界设定：つくみず"},
-    ja:{title:"シメジ シミュレーション",sub:"西蓬町・町の日記",places:["放課後","住宅街","校舎の裏"],characters:["月島しじま","山下まじめ"],stats:["コントリビューション","活動日数","開放された場所"],events:["二人で帰り道を歩く。","空を魚が泳いでいく。","穴掘り部がまた活動を始めた。","雨粒が空へ落ちていく。","不思議な石が光り始めた。","季節外れの雪が降ってきた。","雲が魚の形になった。","昼なのに街灯がともった。","二人の影が逆の方へ歩いていく。","紙飛行機が降りるのを忘れた。","月が少し近づいてきた。","まじめがしじまに本を持ってきた。"],credit:"非公式ファンスキン・原作：つくみず"}
+    en:{title:"Shimeji Simulation",sub:"West Yomogi · Town diary",places:["After school","Residential street","Behind the school"],characters:["Shijima","Majime","Big Sis","Sumida","Yomikawa","Mogawa","Gardener","Chito-like neighbor","Yuuri-like neighbor"],stats:["Contributions","Active days","Town locations"],events:["A quiet walk home.","A fish swims across the sky.","The hole-digging club is at work.","Rain falls upward.","A mysterious stone starts to glow.","Snow falls out of season.","A cloud takes the shape of a fish.","The streetlight turns on in daylight.","Two shadows walk the wrong way.","A paper plane forgets to land.","The moon comes a little closer.","Majime brings Shijima a book.","Big Sis tries another experiment.","Sumida writes a message in her sketchbook.","Yomikawa stops to read.","Mogawa checks on the hole-digging club.","The Gardener repairs a crack in the world.","The two neighbors pass by.","Everyone meets at the hole-digging club."],credit:"Unofficial fan skin · Characters and setting by Tsukumizu"},
+    "zh-CN":{title:"蘑菇的拟态日常",sub:"西蓬镇 · 小镇日记",places:["放学之后","住宅街","校舍后方"],characters:["月岛静寂","山下真面目","姐姐","墨田","读川","茂川老师","园丁","千户模样的邻居","尤莉模样的邻居"],stats:["贡献次数","活跃天数","已开放地点"],events:["一起走在放学路上。","一条鱼从天空游了过去。","挖洞社又开始工作了。","雨滴向天空落去。","路边的神秘石头发出了光。","不合时节的雪下了起来。","一朵云变成了鱼的形状。","路灯在白天亮了起来。","两个人的影子走反了方向。","纸飞机忘记了降落。","月亮又靠近了一点。","真面目给静寂带来一本书。","姐姐又开始做实验了。","墨田在素描本上写下了一句话。","读川学姐停下来看书。","茂川老师来看挖洞社的活动。","园丁正在修补世界的裂缝。","两位邻居从街上经过。","挖洞社的成员都来了。"],credit:"非官方同人皮肤 · 人物与世界设定：つくみず"},
+    ja:{title:"シメジ シミュレーション",sub:"西蓬町・町の日記",places:["放課後","住宅街","校舎の裏"],characters:["月島しじま","山下まじめ","お姉ちゃん","すみだ","よみかわ","もがわ先生","庭師","チトに似たお隣さん","ユーリに似たお隣さん"],stats:["コントリビューション","活動日数","開放された場所"],events:["二人で帰り道を歩く。","空を魚が泳いでいく。","穴掘り部がまた活動を始めた。","雨粒が空へ落ちていく。","不思議な石が光り始めた。","季節外れの雪が降ってきた。","雲が魚の形になった。","昼なのに街灯がともった。","二人の影が逆の方へ歩いていく。","紙飛行機が降りるのを忘れた。","月が少し近づいてきた。","まじめがしじまに本を持ってきた。","お姉ちゃんがまた実験を始めた。","すみだがスケッチブックに一言書いた。","よみかわ先輩が立ち止まって本を読む。","もがわ先生が穴掘り部を見に来た。","庭師が世界のひび割れを直している。","お隣さんの二人が通りかかった。","穴掘り部のみんなが集まった。"],credit:"非公式ファンスキン・原作：つくみず"}
   };
   if(!translations[locale]) throw Error("Unknown locale");
   const t=translations[locale];
@@ -19,7 +19,9 @@ export function renderTown(state, locale, slot, forcedEvent=null){
   let place=[0,2,1][Math.floor(rnd()*locations)];
   const event=forcedEvent===null?Math.floor(rnd()*t.events.length):forcedEvent;
   if(!Number.isInteger(event)||event<0||event>=t.events.length)throw Error("Invalid event");
-  if(event===2)place=2; // school grounds can always be visited for club activity
+  if([2,15,18].includes(event))place=2;
+  if([12,17].includes(event)&&locations===3)place=1;
+  if([13,14].includes(event))place=0;
   const night=rnd()<0.20;
   const c=night?{sky:"#a7b5c5",far:"#a1aaa8",wall:"#b7b8ae",roof:"#656e81",street:"#9d9e9b",green:"#7f9991",ink:"#45505a",window:"#e9d5a0"}:{sky:"#dce5e5",far:"#c2cfca",wall:"#e9e6d9",roof:"#a0a8ac",street:"#c3c4bf",green:"#a9bbb0",ink:"#677178",window:"#c2d2d6"};
   const esc=s=>String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");
@@ -48,6 +50,37 @@ export function renderTown(state, locale, slot, forcedEvent=null){
     else{s+=rect(7,14,7,4,"none",'stroke="#ad6664" stroke-width=".8"')+rect(16,14,7,4,"none",'stroke="#ad6664" stroke-width=".8"')+line(14,15,16,15,"#ad6664",.8)+path("M5 3V0H9V-2H19V-1H24V2H27V5H21V6H9V5H5Z","#f8f3e6","#b8b1a3",.6)+rect(13,0,7,4,"#e4b961")}
     return `<g transform="translate(${x} ${y})"><g transform="scale(${mirror?-2.3:2.3} 2.3) translate(${mirror?-28:0} 0)"><g class="bob ${dark?"shijima":"majime"}">${s}</g></g></g>`;
   }
+  // Supporting cast, with individual silhouettes and characteristic objects.
+  function supporting(kind,x,y,mirror=false){
+    const designs={
+      sis:{hair:"#373940",hi:"#62646e",clothes:"#aaa69d",long:true,adult:true},
+      sumida:{hair:"#819b83",hi:"#a3b4a0",clothes:"#697782",pigtails:true},
+      yomikawa:{hair:"#c8b584",hi:"#e1cda1",clothes:"#697782",long:true},
+      mogawa:{hair:"#c9a0aa",hi:"#e1bdc2",clothes:"#a89aa7",long:true,adult:true},
+      gardener:{hair:"#8b9995",hi:"#aab5ae",clothes:"#798e83",long:true},
+      chito:{hair:"#393a40",hi:"#666970",clothes:"#8b928a",long:true},
+      yuuri:{hair:"#c8b78b",hi:"#e3d2a5",clothes:"#8b928a"}
+    };
+    const d=designs[kind]; if(!d)throw Error("Unknown character");
+    const ink="#4b4b51",skin="#f4e5d4";
+    let a=rect(7,33,5,8,ink)+rect(16,33,5,8,ink)+rect(6,40,8,3,ink)+rect(16,40,8,3,ink);
+    if(d.long)a+=path("M3 10H25V30H23V34H5V30H2V15Z",d.hair);
+    if(d.pigtails)a+=path("M5 13H1V20H0V29H5V23H7V17H21V23H23V29H28V20H26V13Z",d.hair,ink,.5);
+    a+=path("M7 22H21L27 31H22L24 35H5L7 31H2Z",d.clothes,ink,.7);
+    if(kind==="gardener")a+=path("M8 25H20L25 35H3Z","#9eaaa0",ink,.6);
+    else if(d.adult)a+=path("M9 22L14 29L19 22L22 35H6Z","#deddd2",ink,.5);
+    else a+=rect(9,22,10,8,"#e3e4dd")+path("M10 22L14 26L18 22L15 30H13Z","#7f8f9f")+path("M8 31H21L24 35H5Z","#525d69");
+    a+=path("M5 8H8V5H21V7H25V20H22V23H8V20H4V11Z",d.hair,ink,.7)+path("M7 11H22V18H20V21H9V18H7Z",skin)+path("M6 8H23V11H20V14H17V11H13V14H10V12H7Z",d.hair)+rect(8,7,10,2,d.hi);
+    a+=rect(10,15,2,2,kind==="mogawa"?"#8e789b":ink)+rect(18,15,2,2,kind==="mogawa"?"#8e789b":ink)+rect(14,19,2,1,"#ad8883");
+    if(kind==="sis")a+=rect(21,26,8,10,"#d9e0dc",'stroke="#66777a" stroke-width=".7"')+rect(23,28,4,6,"#9aafbb")+rect(24,25,2,2,ink);
+    if(kind==="sumida")a+=rect(15,25,13,10,"#f4f0e5",'stroke="#788281" stroke-width=".7"')+line(21,25,21,35,"#a9a59b",.6)+line(17,28,20,28,ink,.5)+line(23,30,26,30,ink,.5);
+    if(kind==="yomikawa")a+=rect(3,0,23,4,"#b4a28e",'stroke="#665e60" stroke-width=".7"')+rect(5,1,19,2,"#e9e0d1")+rect(5,-4,20,4,"#858fa3",'stroke="#665e60" stroke-width=".7"')+rect(7,-3,16,2,"#e9e0d1");
+    if(kind==="mogawa")a+=rect(21,24,9,12,"#c5beb0",'stroke="#766e69" stroke-width=".7"')+line(23,27,28,27,ink,.5)+line(23,30,28,30,ink,.5);
+    if(kind==="gardener")a+=path("M2 9V-4L10 2H18L26 -4V9Z","#687a76",ink,.7)+rect(4,6,22,4,"#879892")+path("M29 39V4L26 -1M29 4L32 -1","none","#626b66",1.2);
+    if(kind==="chito"||kind==="yuuri")a+=path("M2 9V5L7 0H21L27 6V11H23V8H5V11Z",kind==="chito"?"#777e75":"#a09d89",ink,.7)+rect(9,24,10,3,"#b2b4a8");
+    const scale=d.adult?2.45:2.3;
+    return '<g data-character="'+kind+'" transform="translate('+x+' '+(y+(2.3-scale)*43)+')"><g transform="scale('+(mirror?-scale:scale)+' '+scale+') translate('+(mirror?-28:0)+' 0)"><g class="bob '+kind+'">'+a+'</g></g></g>';
+  }
   let sky=rect(0,0,1000,395,c.sky);
   sky+=ellipse(810,83,event===10?57:28,event===10?57:28,night?"#eae4d0":"#eee9d6");
   for(let j=0;j<8;j++){let x=30+j*141+Math.round(rnd()*35),y=70+Math.round(rnd()*45);sky+=`<g opacity=".68">${rect(x,y,70,9,"#f1f2e9")}${rect(x+14,y-7,36,8,"#f1f2e9")}${rect(x+30,y+8,55,6,"#f1f2e9")}</g>`}
@@ -70,11 +103,26 @@ export function renderTown(state, locale, slot, forcedEvent=null){
   if(event===8)foreground+=`<g class="drift" opacity=".38">${ellipse(385,370,48,7,c.ink)}${ellipse(470,372,48,7,c.ink)}</g>`;
   if(event===9)extra+=`<g class="swim">${path("M450 109L495 90L480 123L470 110Z","#f7f2e7",c.ink)}${line(470,110,495,90,c.ink,.8)}</g>`;
   if(event===11)foreground+=rect(517,340,18,12,"#ad9698")+rect(519,341,14,9,"#e4e1d4")+line(526,341,526,350,c.ink);
-  const people=`${ellipse(411,376,31,6,"#9b9e98")}${ellipse(502,376,31,6,"#9b9e98")}${character("shijima",379,278)}${character("majime",471,278,true)}`;
+  // Each event can introduce a cast member. School and neighborhood cameos
+  // also occur during ordinary events; the seed is independent of locale.
+  const guests={2:["sumida","yomikawa"],12:["sis"],13:["sumida"],14:["yomikawa"],15:["mogawa"],16:["gardener"],17:["chito","yuuri"],18:["sumida","yomikawa","mogawa"]};
+  const guestPool=place===1?["sis","chito","yuuri","gardener"]:["sumida","yomikawa","mogawa","gardener"];
+  const present=guests[event]|| (rnd()<.48?[guestPool[Math.floor(rnd()*guestPool.length)]]:[]);
+  const charIndex={sis:2,sumida:3,yomikawa:4,mogawa:5,gardener:6,chito:7,yuuri:8};
+  const castNames=[...t.characters.slice(0,2),...present.map(k=>t.characters[charIndex[k]])];
+  const xs=present.length===3?[205,620,790]:present.length===2?[225,650]:[640];
+  let people=ellipse(411,376,31,6,"#9b9e98")+ellipse(502,376,31,6,"#9b9e98")+character("shijima",379,278)+character("majime",471,278,true);
+  present.forEach((k,i)=>{people+=ellipse(xs[i]+32,376,30,6,"#9b9e98")+supporting(k,xs[i],278,i%2===1)});
+  if(event===12)foreground+=rect(730,336,52,24,"#9c9d95")+rect(736,341,40,14,"#d1d7ca")+ellipse(757,332,8,9,"#aebbbd");
+  if(event===13)foreground+=path("M685 276H735V252H703L695 244L695 252H685Z","#f4f0e5",c.ink,.8)+line(693,260,726,260,c.ink)+line(693,266,716,266,c.ink);
+  if(event===14)foreground+=rect(704,345,22,13,"#a4a0a2")+rect(706,347,18,8,"#e4dfd3");
+  if(event===15||event===18)foreground+=path("M701 315L735 284L739 288L710 320Z","#8a918e")+path("M731 282L742 277L748 283L739 293Z","#a2aaa9");
+  if(event===16)extra+='<g class="glow">'+path("M690 72L669 125L698 146L663 204L690 231","none","#f7f4db",5)+path("M690 72L669 125L698 146L663 204L690 231","none","#9b9fb7",1.2)+'</g>';
+
   const date=slot.slice(0,10);
   const nums=[state.contributions,state.activeDays,locations];
   const stats=t.stats.map((v,i)=>{let x=30+i*325;return `${label(x,480,v,13,"#68757a")}${label(x,511,nums[i].toLocaleString(locale),25,"#48575f",'font-weight="600"')}`}).join("");
-  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" aria-label="${esc(t.title+" — "+t.events[event])}"><title>${esc(t.title)}</title><desc>${esc(t.events[event]+" | "+t.characters.join(" / "))}</desc><style>text{font-family:'Noto Sans CJK SC','Noto Sans CJK JP','Yu Gothic','Microsoft YaHei',system-ui,sans-serif}.bob{animation:bob 2.8s steps(2,end) infinite}.majime{animation-delay:-1.4s}.swim{animation:swim 14s ease-in-out infinite alternate}.rain{animation:rain 3s linear infinite}.snow{animation:snow 5s linear infinite}.glow{animation:glow 2.5s ease-in-out infinite}.drift{animation:drift 3s ease-in-out infinite alternate}@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-1px)}}@keyframes swim{to{transform:translate(105px,-14px)}}@keyframes rain{to{transform:translate(20px,-100px)}}@keyframes snow{to{transform:translate(12px,60px)}}@keyframes glow{50%{opacity:.5}}@keyframes drift{to{transform:translate(-40px,0)}}@media(prefers-reduced-motion:reduce){*{animation:none!important}}</style><defs><clipPath id="frame"><rect width="1000" height="560" rx="12"/></clipPath><clipPath id="scene"><rect width="1000" height="395"/></clipPath></defs><g clip-path="url(#frame)"><g clip-path="url(#scene)" shape-rendering="crispEdges">${sky}${background}${street}${town}${extra}${foreground}${people}</g><rect width="1000" height="66" fill="#f0f0e7" opacity=".94"/>${label(28,30,t.title,23,"#48555d",'font-weight="600"')}${label(29,51,t.sub+" / "+t.places[place],13)}${label(970,31,date,14,"#647176",'text-anchor="end"')}${label(970,51,"@"+state.username,12,"#647176",'text-anchor="end"')}<rect y="395" width="1000" height="165" fill="#f0f0e7"/>${label(30,426,t.events[event],21,"#46565d")}${label(970,426,t.characters.join(" / "),13,"#647176",'text-anchor="end"')}<path d="M30 447H970" stroke="#c2cac6" stroke-dasharray="3 5"/>${stats}${label(30,543,t.credit,11,"#778080")}</g><rect x=".5" y=".5" width="999" height="559" rx="12" fill="none" stroke="#bac4c2"/></svg>`;
+  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" aria-label="${esc(t.title+" — "+t.events[event])}"><title>${esc(t.title)}</title><desc>${esc(t.events[event]+" | "+castNames.join(" / "))}</desc><style>text{font-family:'Noto Sans CJK SC','Noto Sans CJK JP','Yu Gothic','Microsoft YaHei',system-ui,sans-serif}.bob{animation:bob 2.8s steps(2,end) infinite}.majime{animation-delay:-1.4s}.swim{animation:swim 14s ease-in-out infinite alternate}.rain{animation:rain 3s linear infinite}.snow{animation:snow 5s linear infinite}.glow{animation:glow 2.5s ease-in-out infinite}.drift{animation:drift 3s ease-in-out infinite alternate}@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-1px)}}@keyframes swim{to{transform:translate(105px,-14px)}}@keyframes rain{to{transform:translate(20px,-100px)}}@keyframes snow{to{transform:translate(12px,60px)}}@keyframes glow{50%{opacity:.5}}@keyframes drift{to{transform:translate(-40px,0)}}@media(prefers-reduced-motion:reduce){*{animation:none!important}}</style><defs><clipPath id="frame"><rect width="1000" height="560" rx="12"/></clipPath><clipPath id="scene"><rect width="1000" height="395"/></clipPath></defs><g clip-path="url(#frame)"><g clip-path="url(#scene)" shape-rendering="crispEdges">${sky}${background}${street}${town}${extra}${foreground}${people}</g><rect width="1000" height="66" fill="#f0f0e7" opacity=".94"/>${label(28,30,t.title,23,"#48555d",'font-weight="600"')}${label(29,51,t.sub+" / "+t.places[place],13)}${label(970,31,date,14,"#647176",'text-anchor="end"')}${label(970,51,"@"+state.username,12,"#647176",'text-anchor="end"')}<rect y="395" width="1000" height="165" fill="#f0f0e7"/>${label(30,426,t.events[event],21,"#46565d")}${label(970,450,castNames.join(" / "),13,"#647176",'text-anchor="end"')}<path d="M30 461H970" stroke="#c2cac6" stroke-dasharray="3 5"/>${stats}${label(30,543,t.credit,11,"#778080")}</g><rect x=".5" y=".5" width="999" height="559" rx="12" fill="none" stroke="#bac4c2"/></svg>`;
 }
 if(process.argv[1] && resolve(process.argv[1])===fileURLToPath(import.meta.url)){
   const summary=JSON.parse(readFileSync(process.argv[2],'utf8'));
