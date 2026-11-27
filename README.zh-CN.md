@@ -111,9 +111,9 @@
 
 <!-- monkey-civilization -->
 <p align="center">
-  <a href="https://github.com/jihoo12/monkeys"><img src="./assets/civilization/monkey-civilization.svg" width="100%" alt="由贡献记录驱动的像素文明"></a>
+  <img src="./assets/civilization/shimeji-zh-CN.svg" width="100%" alt="《蘑菇的拟态日常》· 小镇日记">
   <br>
-  <sub><a href="https://github.com/jihoo12/monkeys">Monkey Civilization</a> · 由贡献记录驱动的像素文明</sub>
+  <sub>《蘑菇的拟态日常》· 小镇日记 · 非官方同人皮肤 · <a href="https://github.com/jihoo12/monkeys">Monkey Civilization</a></sub>
 </p>
 
 <p align="center"><a href="https://github.com/TheMysteriousGhost/pixel-profile"><img src="./assets/pixel-profile/divider.svg" width="100%" alt=""></a></p>

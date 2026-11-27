@@ -111,9 +111,9 @@
 
 <!-- monkey-civilization -->
 <p align="center">
-  <a href="https://github.com/jihoo12/monkeys"><img src="./assets/civilization/monkey-civilization.svg" width="100%" alt="活動記録から育つピクセル文明"></a>
+  <img src="./assets/civilization/shimeji-ja.svg" width="100%" alt="シメジ シミュレーション・町の日記">
   <br>
-  <sub><a href="https://github.com/jihoo12/monkeys">Monkey Civilization</a> · 活動記録から育つピクセル文明</sub>
+  <sub>シメジ シミュレーション・町の日記 · 非公式ファンスキン · <a href="https://github.com/jihoo12/monkeys">Monkey Civilization</a></sub>
 </p>
 
 <p align="center"><a href="https://github.com/TheMysteriousGhost/pixel-profile"><img src="./assets/pixel-profile/divider.svg" width="100%" alt=""></a></p>

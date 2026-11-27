@@ -111,9 +111,9 @@ A view of the last year, generated from GitHub activity.
 
 <!-- monkey-civilization -->
 <p align="center">
-  <a href="https://github.com/jihoo12/monkeys"><img src="./assets/civilization/monkey-civilization.svg" width="100%" alt="A pixel civilization grown from contributions"></a>
+  <img src="./assets/civilization/shimeji-en.svg" width="100%" alt="Shimeji Simulation — town diary">
   <br>
-  <sub><a href="https://github.com/jihoo12/monkeys">Monkey Civilization</a> · A pixel civilization grown from contributions</sub>
+  <sub>Shimeji Simulation — town diary · Unofficial fan skin · <a href="https://github.com/jihoo12/monkeys">Monkey Civilization</a></sub>
 </p>
 
 <p align="center"><a href="https://github.com/TheMysteriousGhost/pixel-profile"><img src="./assets/pixel-profile/divider.svg" width="100%" alt=""></a></p>

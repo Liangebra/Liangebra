@@ -1,0 +1,40 @@
+{
+  "username": "Liangebra",
+  "seed": "16617db1",
+  "age": "INDUSTRIAL AGE",
+  "level": 23,
+  "population": 9,
+  "capacity": 14,
+  "bananas": 3130,
+  "contributions": 426,
+  "activeDays": 24,
+  "buildings": [
+    {
+      "id": "dwellings",
+      "level": 2,
+      "builtOnDay": 364
+    },
+    {
+      "id": "farm",
+      "level": 2,
+      "builtOnDay": 364
+    },
+    {
+      "id": "community",
+      "level": 2,
+      "builtOnDay": 364
+    },
+    {
+      "id": "workshop",
+      "level": 2,
+      "builtOnDay": 364
+    },
+    {
+      "id": "culture",
+      "level": 2,
+      "builtOnDay": 364
+    }
+  ],
+  "holiday": null,
+  "lastEvent": "DAY 365: A contribution meteor shower! 103 commits in one day. The banana pile grows suspiciously tall."
+}
