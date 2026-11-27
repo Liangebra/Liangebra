@@ -40,7 +40,7 @@
 
 ### 理论研究与形式化数学
 
-<img align="right" src="./assets/characters/37-peek.svg" width="94" height="72" alt="重返未来：1999 的 37">
+<img align="right" src="./assets/characters/37-peek.svg" width="116" alt="重返未来：1999 的 37">
 
 **[Computational Metaknowledge](https://github.com/Liangebra/computational-metaknowledge)**
 

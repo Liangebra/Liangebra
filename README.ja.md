@@ -40,7 +40,7 @@
 
 ### 理論研究と形式化数学
 
-<img align="right" src="./assets/characters/37-peek.svg" width="94" height="72" alt="リバース：1999 の 37">
+<img align="right" src="./assets/characters/37-peek.svg" width="116" alt="リバース：1999 の 37">
 
 **[Computational Metaknowledge](https://github.com/Liangebra/computational-metaknowledge)**
 

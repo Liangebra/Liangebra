@@ -40,7 +40,7 @@ The idea is to let the two expressions share a mathematical structure and allow 
 
 ### Theory and formalization
 
-<img align="right" src="./assets/characters/37-peek.svg" width="94" height="72" alt="37 from Reverse: 1999">
+<img align="right" src="./assets/characters/37-peek.svg" width="116" alt="37 from Reverse: 1999">
 
 **[Computational Metaknowledge](https://github.com/Liangebra/computational-metaknowledge)**
 
