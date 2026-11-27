@@ -1,5 +1,10 @@
 <div align="center">
-  <img src="./assets/cover.svg" alt="Liangebra — Understanding mathematics through structure" width="100%">
+  <h1>Liangebra</h1>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=500&amp;size=19&amp;duration=3400&amp;pause=1200&amp;color=A9B1D6&amp;center=true&amp;vCenter=true&amp;width=700&amp;height=48&amp;lines=Understanding%20mathematics%20through%20structure.;Formal%20mathematics%20%C2%B7%20Type%20theory%20%C2%B7%20Computability;From%20mathematical%20ideas%20to%20executable%20structures.">
+    <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=500&amp;size=19&amp;duration=3400&amp;pause=1200&amp;color=5A5893&amp;center=true&amp;vCenter=true&amp;width=700&amp;height=48&amp;lines=Understanding%20mathematics%20through%20structure.;Formal%20mathematics%20%C2%B7%20Type%20theory%20%C2%B7%20Computability;From%20mathematical%20ideas%20to%20executable%20structures.">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=500&amp;size=19&amp;duration=3400&amp;pause=1200&amp;color=5A5893&amp;center=true&amp;vCenter=true&amp;width=700&amp;height=48&amp;lines=Understanding%20mathematics%20through%20structure.;Formal%20mathematics%20%C2%B7%20Type%20theory%20%C2%B7%20Computability;From%20mathematical%20ideas%20to%20executable%20structures." alt="Understanding mathematics through structure." width="700">
+  </picture>
   <br>
   <strong>English</strong> &nbsp; | &nbsp; <a href="https://github.com/Liangebra/Liangebra/blob/main/README.zh-CN.md">简体中文</a> &nbsp; | &nbsp; <a href="https://github.com/Liangebra/Liangebra/blob/main/README.ja.md">日本語</a>
   <br><br>
@@ -50,12 +55,38 @@ I am interested in making formal mathematics readable, mathematically meaningful
 
 I welcome discussions and collaboration on mathematical language, formalization, and open research tools.
 
+## 05 / Research activity
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Liangebra&amp;theme=tokyonight">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Liangebra&amp;theme=default">
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Liangebra&amp;theme=default" alt="GitHub contribution overview" width="100%">
+  </picture>
+  <br>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Liangebra&amp;theme=tokyonight">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Liangebra&amp;theme=default">
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Liangebra&amp;theme=default" alt="GitHub public activity statistics" width="48%">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Liangebra&amp;theme=tokyonight">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Liangebra&amp;theme=default">
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Liangebra&amp;theme=default" alt="Repository language distribution" width="48%">
+  </picture>
+  <br>
+  <sub>Public GitHub activity · Automatically generated · <a href="https://github.com/vn7n24fzkq/github-profile-summary-cards">Summary Cards</a></sub>
+</div>
+
+
 ---
 
 <div align="center">
   <sub>構造から、数学へ。</sub>
   <br>
   <i>From mathematical ideas to executable structures.</i>
+  <br>
+  <a href="https://github.com/DenverCoder1/readme-typing-svg"><sub>Typing SVG</sub></a>
   <br><br>
   <strong>English</strong> &nbsp; | &nbsp; <a href="https://github.com/Liangebra/Liangebra/blob/main/README.zh-CN.md">简体中文</a> &nbsp; | &nbsp; <a href="https://github.com/Liangebra/Liangebra/blob/main/README.ja.md">日本語</a>
 </div>
