@@ -52,7 +52,10 @@ Work on proof readability, mathematical abstraction and redundant dependencies i
 
 ### DeepSeek Harness plugin contributions
 
-<a href="https://github.com/vlln/whale-girl"><img align="right" src="https://raw.githubusercontent.com/vlln/whale-girl/c3f4afb400755062991c7e9991b745b3016abeeb/docs/preview/think.gif" width="105" alt="Whale Girl thinking animation"></a>
+<!-- dsh-whale-girl-strip -->
+<p align="center">
+  <a href="https://github.com/vlln/whale-girl"><img src="https://raw.githubusercontent.com/vlln/whale-girl/c3f4afb400755062991c7e9991b745b3016abeeb/docs/preview/welcome.gif" width="60" alt="Greeting">&nbsp;<img src="https://raw.githubusercontent.com/vlln/whale-girl/c3f4afb400755062991c7e9991b745b3016abeeb/docs/preview/think.gif" width="60" alt="Thinking">&nbsp;<img src="https://raw.githubusercontent.com/vlln/whale-girl/c3f4afb400755062991c7e9991b745b3016abeeb/docs/preview/working.gif" width="60" alt="Working">&nbsp;<img src="https://raw.githubusercontent.com/vlln/whale-girl/c3f4afb400755062991c7e9991b745b3016abeeb/docs/preview/celebrate.gif" width="60" alt="Celebrating">&nbsp;<img src="https://raw.githubusercontent.com/vlln/whale-girl/c3f4afb400755062991c7e9991b745b3016abeeb/docs/preview/sleep.gif" width="60" alt="Sleeping"></a>
+</p>
 
 I develop plugins for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness), with an interest in agent context management and interaction.
 
