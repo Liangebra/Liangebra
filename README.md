@@ -1,9 +1,9 @@
 <div align="center">
   <h1>Liangebra</h1>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=500&amp;size=19&amp;duration=3400&amp;pause=1200&amp;color=A9B1D6&amp;center=true&amp;vCenter=true&amp;width=700&amp;height=48&amp;lines=Understanding%20mathematics%20through%20structure.;Formal%20mathematics%20%C2%B7%20Type%20theory%20%C2%B7%20Computability;From%20mathematical%20ideas%20to%20executable%20structures.">
-    <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=500&amp;size=19&amp;duration=3400&amp;pause=1200&amp;color=5A5893&amp;center=true&amp;vCenter=true&amp;width=700&amp;height=48&amp;lines=Understanding%20mathematics%20through%20structure.;Formal%20mathematics%20%C2%B7%20Type%20theory%20%C2%B7%20Computability;From%20mathematical%20ideas%20to%20executable%20structures.">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=500&amp;size=19&amp;duration=3400&amp;pause=1200&amp;color=5A5893&amp;center=true&amp;vCenter=true&amp;width=700&amp;height=48&amp;lines=Understanding%20mathematics%20through%20structure.;Formal%20mathematics%20%C2%B7%20Type%20theory%20%C2%B7%20Computability;From%20mathematical%20ideas%20to%20executable%20structures." alt="Understanding mathematics through structure." width="700">
+    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=500&amp;size=19&amp;duration=3400&amp;pause=1200&amp;color=A9B1D6&amp;center=true&amp;vCenter=true&amp;width=700&amp;height=48&amp;lines=Mathematics%20and%20applied%20mathematics;Topology%20%2F%20Algebra%20%2F%20Lean">
+    <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=500&amp;size=19&amp;duration=3400&amp;pause=1200&amp;color=5A5893&amp;center=true&amp;vCenter=true&amp;width=700&amp;height=48&amp;lines=Mathematics%20and%20applied%20mathematics;Topology%20%2F%20Algebra%20%2F%20Lean">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=500&amp;size=19&amp;duration=3400&amp;pause=1200&amp;color=5A5893&amp;center=true&amp;vCenter=true&amp;width=700&amp;height=48&amp;lines=Mathematics%20and%20applied%20mathematics;Topology%20%2F%20Algebra%20%2F%20Lean" alt="Mathematics and applied mathematics" width="700">
   </picture>
   <br>
   <strong>English</strong> &nbsp; | &nbsp; <a href="https://github.com/Liangebra/Liangebra/blob/main/README.zh-CN.md">简体中文</a> &nbsp; | &nbsp; <a href="https://github.com/Liangebra/Liangebra/blob/main/README.ja.md">日本語</a>
@@ -17,49 +17,33 @@
 
 ---
 
-## 01 / About me
+## About me
 
-<a href="https://github.com/SpiralKernel/catgirl-avatars"><img align="right" src="https://raw.githubusercontent.com/SpiralKernel/catgirl-avatars/main/docs/assets/thumbs/fairywren/02_blue_catgirl.webp" width="138" alt="Research notebook mascot"></a>
+I'm an undergraduate studying mathematics and applied mathematics. I particularly like topology, algebra and the structural side of mathematics. I'm also interested in how mathematical language is developed and how we come to understand mathematical objects.
 
-I am a mathematics undergraduate interested in the structures behind mathematical reasoning and computation. I like to understand not only why a mathematical statement is true, but also the language and structures that make it natural.
+These days I've been working on LeanDuet and contributing to Lean projects. Some of my other repositories come from mathematical modeling competitions or things I wanted to try.
 
-My interests include topology, algebra, dependent type theory, formal mathematics, computability, and mathematical modeling.
-
-<sub><a href="https://github.com/SpiralKernel/catgirl-avatars">Illustration: SpiralKernel / Catgirl Avatars</a></sub>
-
-## 02 / Currently exploring
+## What I'm working on
 
 ### [LeanDuet](https://github.com/Liangebra/leanduet)
 
-An open-source mathematical workbench exploring how natural mathematical language and Lean can become two editable expressions of a shared mathematical structure.
+I started this project because I wanted to write mathematics naturally while still being able to work with Lean. The difficult part, I think, is not just translating sentences into code, but understanding what mathematical structure both expressions refer to.
 
-$$
-\text{Mathematical language}\;\longleftrightarrow\;\mathcal{S}\;\longleftrightarrow\;\text{Lean}
-$$
+The idea is to let the two expressions share a mathematical structure and allow edits on either side. There is still quite a lot to do.
 
-[Online editor](https://liangebra.github.io/leanduet/) · [Research notes](https://github.com/Liangebra/leanduet/blob/main/docs/RESEARCH.md) · [Discussions](https://github.com/Liangebra/leanduet/discussions)
+[Try it](https://liangebra.github.io/leanduet/) / [Research notes](https://github.com/Liangebra/leanduet/blob/main/docs/RESEARCH.md) / [Discussions](https://github.com/Liangebra/leanduet/discussions)
 
-The research goal is bidirectional mathematical representation, not merely automated proof generation.
+### Other work
 
-## 03 / Selected works
+- [Computational Metaknowledge](https://github.com/Liangebra/computational-metaknowledge) — A small research project on computability and what an agent can know. [Paper](https://github.com/Liangebra/computational-metaknowledge/blob/main/paper/ResearchReport.pdf).
+- [Riemann Hypothesis community project](https://github.com/leanprover-community/riemann-hypothesis) — I've been working on proof readability, mathematical abstraction and redundant dependencies. [My PRs](https://github.com/leanprover-community/riemann-hypothesis/pulls?q=is%3Apr+author%3ALiangebra).
+- [Green Electricity SG-ABM](https://github.com/Liangebra/green-electricity-SGABM) — An agent-based model of the green electricity market.
+- [MathModelEvaluator](https://github.com/Liangebra/MathModelEvaluator) — A tool that grew out of a mathematical modeling problem.
+- [NuBook](https://github.com/Liangebra/Nubook) — A small Android bookkeeping app.
 
-| Project | Focus |
-| :--- | :--- |
-| [**Computational Metaknowledge**](https://github.com/Liangebra/computational-metaknowledge) | Computability, epistemic limits, and sound certificates of knowledge. [Research report](https://github.com/Liangebra/computational-metaknowledge/blob/main/paper/ResearchReport.pdf) |
-| [**Riemann Hypothesis — community project**](https://github.com/leanprover-community/riemann-hypothesis) | Open-source contributions to the readability, abstraction, and dependency structure of Lean formalizations. |
-| [**Green Electricity SG-ABM**](https://github.com/Liangebra/green-electricity-SGABM) | Agent-based simulation and green electricity policy coordination. |
-| [**MathModelEvaluator**](https://github.com/Liangebra/MathModelEvaluator) | Quantitative evaluation of mathematical modeling papers. |
-| [**NuBook**](https://github.com/Liangebra/Nubook) | Minimalist Android bookkeeping application. |
+If you're interested in any of these, feel free to open an issue or discussion. I'd also like to hear from people interested in Lean, type theory or mathematical language.
 
-## 04 / Open-source mathematics
-
-I am interested in making formal mathematics readable, mathematically meaningful, and reusable: clarifying assumptions, simplifying proof dependencies, and finding the right level of abstraction.
-
-[My contributions to the Lean community project](https://github.com/leanprover-community/riemann-hypothesis/pulls?q=is%3Apr+author%3ALiangebra)
-
-I welcome discussions and collaboration on mathematical language, formalization, and open research tools.
-
-## 05 / Research activity
+## GitHub activity
 
 <div align="center">
   <picture>
@@ -84,7 +68,7 @@ I welcome discussions and collaboration on mathematical language, formalization,
 
 
 <!-- contribution-art -->
-## 06 / Extra stage
+## A little extra
 
 <div align="center">
   <img src="./assets/generated/contributions-3d.svg" alt="3D contribution calendar" width="100%">
@@ -100,10 +84,8 @@ I welcome discussions and collaboration on mathematical language, formalization,
 ---
 
 <div align="center">
-  <sub>構造から、数学へ。</sub>
-  <br>
-  <i>From mathematical ideas to executable structures.</i>
-  <br>
+  <a href="https://github.com/journey-ad/Moe-Counter"><img src="https://count.getloli.com/@Liangebra-profile?theme=asoul&amp;padding=5&amp;offset=0&amp;align=top&amp;scale=1&amp;pixelated=1&amp;darkmode=auto" alt="Visitor counter" width="200"></a>
+  <br><br>
   <a href="https://github.com/DenverCoder1/readme-typing-svg"><sub>Typing SVG</sub></a>
   <br><br>
   <strong>English</strong> &nbsp; | &nbsp; <a href="https://github.com/Liangebra/Liangebra/blob/main/README.zh-CN.md">简体中文</a> &nbsp; | &nbsp; <a href="https://github.com/Liangebra/Liangebra/blob/main/README.ja.md">日本語</a>
