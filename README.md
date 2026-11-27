@@ -1,5 +1,7 @@
 <div align="center">
   <h1>Liangebra</h1>
+  <a href="https://github.com/journey-ad/Moe-Counter"><img src="https://count.getloli.com/@Liangebra-profile?theme=asoul&amp;padding=5&amp;offset=0&amp;align=top&amp;scale=1&amp;pixelated=1&amp;darkmode=auto" alt="Visitor counter" width="230"></a>
+  <br><br>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=500&amp;size=19&amp;duration=3400&amp;pause=1200&amp;color=A9B1D6&amp;center=true&amp;vCenter=true&amp;width=700&amp;height=48&amp;lines=Mathematics%20and%20applied%20mathematics;Topology%20%2F%20Algebra%20%2F%20Lean">
     <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=500&amp;size=19&amp;duration=3400&amp;pause=1200&amp;color=5A5893&amp;center=true&amp;vCenter=true&amp;width=700&amp;height=48&amp;lines=Mathematics%20and%20applied%20mathematics;Topology%20%2F%20Algebra%20%2F%20Lean">
@@ -95,8 +97,6 @@ If you're interested in any of these, feel free to open an issue or discussion. 
 ---
 
 <div align="center">
-  <a href="https://github.com/journey-ad/Moe-Counter"><img src="https://count.getloli.com/@Liangebra-profile?theme=asoul&amp;padding=5&amp;offset=0&amp;align=top&amp;scale=1&amp;pixelated=1&amp;darkmode=auto" alt="Visitor counter" width="200"></a>
-  <br><br>
   <a href="https://github.com/DenverCoder1/readme-typing-svg"><sub>Typing SVG</sub></a>
   <br><br>
   <strong>English</strong> &nbsp; | &nbsp; <a href="https://github.com/Liangebra/Liangebra/blob/main/README.zh-CN.md">简体中文</a> &nbsp; | &nbsp; <a href="https://github.com/Liangebra/Liangebra/blob/main/README.ja.md">日本語</a>
