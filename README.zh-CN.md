@@ -68,8 +68,6 @@
 
 [dsh-bash-terminal](https://github.com/MAXeaglet/dsh-bash-terminal)：通过直接接入 `node-pty` 修复 Windows 交互式终端的兼容性问题。 [已合并的 PR #2](https://github.com/MAXeaglet/dsh-bash-terminal/pull/2)。
 
-[dsh-agent-teams](https://github.com/NanmiCoder/dsh-agent-teams)：提出 Git 安装构建修复（[#32，开放中](https://github.com/NanmiCoder/dsh-agent-teams/pull/32)）以及活动面板拖拽和降低轮询频率的改进（[#34，已关闭未合并](https://github.com/NanmiCoder/dsh-agent-teams/pull/34)）。
-
 ### 数学建模与软件开发
 
 **[Green Electricity SG-ABM](https://github.com/Liangebra/green-electricity-SGABM)**

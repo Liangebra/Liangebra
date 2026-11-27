@@ -68,8 +68,6 @@
 
 [dsh-bash-terminal](https://github.com/MAXeaglet/dsh-bash-terminal)：`node-pty` への直接接続により Windows の対話型端末の互換性を修正。 [マージ済み PR #2](https://github.com/MAXeaglet/dsh-bash-terminal/pull/2)。
 
-[dsh-agent-teams](https://github.com/NanmiCoder/dsh-agent-teams)：Git 経由のインストール時のビルド修正（[#32、オープン](https://github.com/NanmiCoder/dsh-agent-teams/pull/32)）と、活動パネルのドラッグ操作・ポーリング頻度の低減（[#34、未マージでクローズ](https://github.com/NanmiCoder/dsh-agent-teams/pull/34)）を提案しました。
-
 ### 数学モデリングとソフトウェア
 
 **[Green Electricity SG-ABM](https://github.com/Liangebra/green-electricity-SGABM)**

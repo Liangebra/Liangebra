@@ -68,8 +68,6 @@ I develop plugins for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek
 
 [dsh-bash-terminal](https://github.com/MAXeaglet/dsh-bash-terminal) — fixed Windows interactive terminal support through direct `node-pty` integration. [Merged PR #2](https://github.com/MAXeaglet/dsh-bash-terminal/pull/2).
 
-[dsh-agent-teams](https://github.com/NanmiCoder/dsh-agent-teams) — proposed Git-based installation fixes ([#32, open](https://github.com/NanmiCoder/dsh-agent-teams/pull/32)) and a draggable activity panel with less frequent polling ([#34, closed without merge](https://github.com/NanmiCoder/dsh-agent-teams/pull/34)).
-
 ### Modeling and software
 
 **[Green Electricity SG-ABM](https://github.com/Liangebra/green-electricity-SGABM)**
