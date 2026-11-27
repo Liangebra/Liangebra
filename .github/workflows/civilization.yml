@@ -9,6 +9,7 @@ on:
     paths:
       - '.github/workflows/civilization.yml'
       - 'scripts/shimeji-skin*.mjs'
+      - 'scripts/shimeji-pixel-art.mjs'
 
 permissions:
   contents: write
@@ -23,6 +24,19 @@ jobs:
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          repository: jihoo12/monkeys
+          ref: 4dcb805cc3c6a0d14b6bfb1bbbdab085f7d97820
+          path: .monkeys-source
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Expose original landscape helpers in the temporary checkout
+        run: |
+          printf '\nexport { renderSkyBands, renderSun, renderClouds, renderBirds, renderMountains, renderTreeLine, renderBackdrop, renderGround, renderForeground, renderStars, renderMoon, renderFireflies, renderLights };\n' >> .monkeys-source/src/render/scene.ts
+          printf '\nexport { BASE_CSS };\n' >> .monkeys-source/src/render/render.ts
       - name: Test skin renderer
         run: node scripts/shimeji-skin.test.mjs
       - name: Run original civilization simulation

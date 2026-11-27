@@ -9,6 +9,11 @@ for(const state of [base,{...base,contributions:0,activeDays:0,buildings:[]}]){
       assert.match(svg,/^<svg [\s\S]*<\/svg>$/);
       assert.doesNotMatch(svg,/NaN|undefined|<script|foreignObject/);
       assert.ok(svg.includes('prefers-reduced-motion'));
+      assert.ok(svg.includes('viewBox="0 0 960 660"'));
+      assert.ok(svg.includes('data-character="shijima"'));
+      assert.ok(svg.includes('data-character="majime"'));
+      assert.ok(svg.includes('class="cloud'));
+      assert.ok(svg.length>30000);
     }
   }
 }
@@ -19,7 +24,7 @@ const guests={2:['sumida','yomikawa'],12:['sis'],13:['sumida'],14:['yomikawa'],1
 for(const [event,cast] of Object.entries(guests)){
   const svgs=['en','zh-CN','ja'].map(lang=>renderTown(base,lang,'2026-11-27T06',Number(event)));
   for(const svg of svgs) for(const k of cast) assert.ok(svg.includes('data-character="'+k+'"'));
-  const geometry=svg=>svg.match(/<g clip-path="url\(#scene\)"[\s\S]*?<rect width="1000" height="66"/)?.[0];
+  const geometry=svg=>svg.slice(svg.indexOf('<g clip-path="url(#scene)"'),svg.indexOf('<rect x="12" y="12"',svg.indexOf('<g clip-path="url(#scene)"')));
   assert.ok(geometry(svgs[0]));
   assert.equal(geometry(svgs[0]),geometry(svgs[1]));
   assert.equal(geometry(svgs[0]),geometry(svgs[2]));
