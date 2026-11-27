@@ -43,7 +43,12 @@
 
 这里记录了过去一年的 GitHub 活动。
 
-<!-- singularity-telemetry-pending -->
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/singularity/telemetry-dark.svg">
+    <img src="./assets/singularity/telemetry-light.svg" alt="过去一年的贡献记录" width="100%">
+  </picture>
+</p>
 
 <!-- contribution-art -->
 <details>
@@ -107,7 +112,12 @@
   <sub><a href="https://github.com/egorthinks/git-bonsai">一棵用 GitHub 记录养出来的盆景。 · Git Bonsai</a></sub>
 </p>
 
-<!-- singularity-end-pending -->
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/singularity/end-dark.svg">
+    <img src="./assets/singularity/end-light.svg" alt="Singularity 结尾动画" width="100%">
+  </picture>
+</p>
 
 <p align="center"><sub>主题来自 README Templates 的 Singularity，其他组件均已标注来源。 <a href="https://github.com/Dr-At0mic/README-Templates">README Templates</a> · <a href="https://github.com/journey-ad/Moe-Counter">Moe Counter</a></sub></p>
 <p align="center"><a href="https://github.com/Liangebra">English</a> &nbsp; / &nbsp; <strong>简体中文</strong> &nbsp; / &nbsp; <a href="https://github.com/Liangebra/Liangebra/blob/main/README.ja.md">日本語</a></p>
