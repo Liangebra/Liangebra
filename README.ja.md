@@ -12,6 +12,8 @@
 
 ## 関心分野
 
+<img align="right" src="./assets/characters/shimeji-peek.svg" width="132" height="72" alt="しじま と まじめ">
+
 数学・応用数学を専攻する学部生です。特に位相数学や代数学など、数学の構造に関わる分野が好きです。計算そのものよりも、なぜその定義が考えられたのか、数学的対象をどう理解するのかに興味があります。
 
 最近は主に LeanDuet を開発しながら、Lean のオープンソース活動にも参加しています。他のリポジトリには、数学モデリングのコンテストをきっかけに作ったものや、面白そうだと思って試したものがあります。
@@ -37,6 +39,8 @@
 [オンライン版](https://liangebra.github.io/leanduet/) / [研究ノート](https://github.com/Liangebra/leanduet/blob/main/docs/RESEARCH.md) / [議論](https://github.com/Liangebra/leanduet/discussions)
 
 ### 理論研究と形式化数学
+
+<img align="right" src="./assets/characters/37-peek.svg" width="94" height="72" alt="リバース：1999 の 37">
 
 **[Computational Metaknowledge](https://github.com/Liangebra/computational-metaknowledge)**
 
@@ -111,9 +115,9 @@
 
 <!-- monkey-civilization -->
 <p align="center">
-  <img src="./assets/civilization/shimeji-ja.svg" width="100%" alt="シメジ シミュレーション・町の日記">
+  <a href="https://github.com/jihoo12/monkeys"><img src="./assets/civilization/monkey-civilization.svg" width="100%" alt="活動記録から育つピクセル文明"></a>
   <br>
-  <sub>シメジ シミュレーション・町の日記 · 非公式ファンスキン · <a href="https://github.com/jihoo12/monkeys">Monkey Civilization</a></sub>
+  <sub><a href="https://github.com/jihoo12/monkeys">Monkey Civilization</a> · 活動記録から育つピクセル文明</sub>
 </p>
 
 <p align="center"><a href="https://github.com/TheMysteriousGhost/pixel-profile"><img src="./assets/pixel-profile/divider.svg" width="100%" alt=""></a></p>

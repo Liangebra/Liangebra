@@ -12,6 +12,8 @@
 
 ## Research interests
 
+<img align="right" src="./assets/characters/shimeji-peek.svg" width="132" height="72" alt="Shijima and Majime">
+
 I'm an undergraduate studying mathematics and applied mathematics. I particularly like topology, algebra and the structural side of mathematics. I'm also interested in how mathematical language is developed and how we come to understand mathematical objects.
 
 These days I've been working on LeanDuet and contributing to Lean projects. Some of my other repositories come from mathematical modeling competitions or things I wanted to try.
@@ -37,6 +39,8 @@ The idea is to let the two expressions share a mathematical structure and allow 
 [Try it](https://liangebra.github.io/leanduet/) / [Research notes](https://github.com/Liangebra/leanduet/blob/main/docs/RESEARCH.md) / [Discussions](https://github.com/Liangebra/leanduet/discussions)
 
 ### Theory and formalization
+
+<img align="right" src="./assets/characters/37-peek.svg" width="94" height="72" alt="37 from Reverse: 1999">
 
 **[Computational Metaknowledge](https://github.com/Liangebra/computational-metaknowledge)**
 
@@ -111,9 +115,9 @@ A view of the last year, generated from GitHub activity.
 
 <!-- monkey-civilization -->
 <p align="center">
-  <img src="./assets/civilization/shimeji-en.svg" width="100%" alt="Shimeji Simulation — town diary">
+  <a href="https://github.com/jihoo12/monkeys"><img src="./assets/civilization/monkey-civilization.svg" width="100%" alt="A pixel civilization grown from contributions"></a>
   <br>
-  <sub>Shimeji Simulation — town diary · Unofficial fan skin · <a href="https://github.com/jihoo12/monkeys">Monkey Civilization</a></sub>
+  <sub><a href="https://github.com/jihoo12/monkeys">Monkey Civilization</a> · A pixel civilization grown from contributions</sub>
 </p>
 
 <p align="center"><a href="https://github.com/TheMysteriousGhost/pixel-profile"><img src="./assets/pixel-profile/divider.svg" width="100%" alt=""></a></p>

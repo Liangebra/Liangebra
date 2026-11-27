@@ -12,6 +12,8 @@
 
 ## 研究兴趣
 
+<img align="right" src="./assets/characters/shimeji-peek.svg" width="132" height="72" alt="静寂与真面目">
+
 我目前是数学与应用数学专业的本科生，比较喜欢拓扑、代数这类偏结构的数学。比起单纯的计算，我更感兴趣的是一个定义为什么会这样提出，以及我们是怎样理解数学对象的。
 
 最近主要在做 LeanDuet，也在参与一些 Lean 的开源工作。其他一些仓库是之前做数学建模时留下的，或者只是觉得有意思就做了。
@@ -37,6 +39,8 @@
 [在线体验](https://liangebra.github.io/leanduet/) / [研究笔记](https://github.com/Liangebra/leanduet/blob/main/docs/RESEARCH.md) / [讨论](https://github.com/Liangebra/leanduet/discussions)
 
 ### 理论研究与形式化数学
+
+<img align="right" src="./assets/characters/37-peek.svg" width="94" height="72" alt="重返未来：1999 的 37">
 
 **[Computational Metaknowledge](https://github.com/Liangebra/computational-metaknowledge)**
 
@@ -111,9 +115,9 @@
 
 <!-- monkey-civilization -->
 <p align="center">
-  <img src="./assets/civilization/shimeji-zh-CN.svg" width="100%" alt="《蘑菇的拟态日常》· 小镇日记">
+  <a href="https://github.com/jihoo12/monkeys"><img src="./assets/civilization/monkey-civilization.svg" width="100%" alt="由贡献记录驱动的像素文明"></a>
   <br>
-  <sub>《蘑菇的拟态日常》· 小镇日记 · 非官方同人皮肤 · <a href="https://github.com/jihoo12/monkeys">Monkey Civilization</a></sub>
+  <sub><a href="https://github.com/jihoo12/monkeys">Monkey Civilization</a> · 由贡献记录驱动的像素文明</sub>
 </p>
 
 <p align="center"><a href="https://github.com/TheMysteriousGhost/pixel-profile"><img src="./assets/pixel-profile/divider.svg" width="100%" alt=""></a></p>

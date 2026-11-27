@@ -1,15 +1,12 @@
-name: Refresh Shimeji Simulation town skin
+name: Grow pixel civilization
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: '29 2,8,14,20 * * *'
+    - cron: '29 4 * * 0'
   push:
     branches: [main]
-    paths:
-      - '.github/workflows/civilization.yml'
-      - 'scripts/shimeji-skin*.mjs'
-      - 'scripts/shimeji-pixel-art.mjs'
+    paths: ['.github/workflows/civilization.yml']
 
 permissions:
   contents: write
@@ -24,63 +21,20 @@ jobs:
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/checkout@v4
-        with:
-          repository: jihoo12/monkeys
-          ref: 4dcb805cc3c6a0d14b6bfb1bbbdab085f7d97820
-          path: .monkeys-source
-          persist-credentials: false
-      - uses: actions/setup-node@v4
-        with:
-          node-version: '24'
-      - name: Expose original landscape helpers in the temporary checkout
-        run: |
-          printf '\nexport { renderSkyBands, renderSun, renderClouds, renderBirds, renderMountains, renderTreeLine, renderBackdrop, renderGround, renderForeground, renderStars, renderMoon, renderFireflies, renderLights };\n' >> .monkeys-source/src/render/scene.ts
-          printf '\nexport { BASE_CSS };\n' >> .monkeys-source/src/render/render.ts
-      - name: Test skin renderer
-        run: node scripts/shimeji-skin.test.mjs
-      - name: Run original civilization simulation
+      - name: Generate original contribution-based pixel civilization
         uses: jihoo12/monkeys@4dcb805cc3c6a0d14b6bfb1bbbdab085f7d97820
         with:
           github_token: ${{ github.token }}
           username: Liangebra
           output: assets/civilization/monkey-civilization.svg
-          json_output: assets/civilization/monkey-state.json
           holiday: auto
-      - name: Render one town event in three languages
-        run: node scripts/shimeji-skin.mjs assets/civilization/monkey-state.json assets/civilization
-      - name: Validate and publish skin
+      - name: Publish original artwork only
         run: |
-          python - <<'PY'
-          from pathlib import Path
-          import re
-          import xml.etree.ElementTree as ET
-          labels = {
-              'README.md': ('en', 'Shimeji Simulation — town diary', 'Unofficial fan skin'),
-              'README.zh-CN.md': ('zh-CN', '《蘑菇的拟态日常》· 小镇日记', '非官方同人皮肤'),
-              'README.ja.md': ('ja', 'シメジ シミュレーション・町の日記', '非公式ファンスキン'),
-          }
-          for file, (lang, title, credit) in labels.items():
-              asset = f'assets/civilization/shimeji-{lang}.svg'
-              root = ET.parse(asset).getroot()
-              assert root.tag == '{http://www.w3.org/2000/svg}svg'
-              p = Path(file)
-              s = p.read_text(encoding='utf-8')
-              block = f'''<!-- monkey-civilization -->
-          <p align="center">
-            <img src="./{asset}" width="100%" alt="{title}">
-            <br>
-            <sub>{title} · {credit} · <a href="https://github.com/jihoo12/monkeys">Monkey Civilization</a></sub>
-          </p>'''
-              s, count = re.subn(r'<!-- monkey-civilization -->\s*<p align="center">[\s\S]*?</p>', lambda _: block, s, count=1)
-              if count != 1:
-                  raise RuntimeError(f'Missing civilization section: {file}')
-              p.write_text(s, encoding='utf-8')
-          PY
+          test -s assets/civilization/monkey-civilization.svg
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/civilization README.md README.zh-CN.md README.ja.md
+          git add assets/civilization/monkey-civilization.svg
           if git diff --cached --quiet; then exit 0; fi
-          git commit -m "Refresh localized Shimeji town diary"
+          git commit -m "Refresh pixel civilization"
           git pull --rebase origin main
           git push origin HEAD:main
