@@ -20,7 +20,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Generate 3D contribution calendar
-        uses: yoshi389111/github-profile-3d-contrib@0.9.0
+        uses: yoshi389111/github-profile-3d-contrib@v0.9.3
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
@@ -34,9 +34,41 @@ jobs:
           mkdir -p assets/generated
           cp profile-3d-contrib/profile-night-view.svg assets/generated/contributions-3d.svg
           cp dist/pacman-contribution-graph*.svg assets/generated/
+          python - <<'PY'
+          from pathlib import Path
+          labels = {
+              'README.md': ('06 / Extra stage', '3D contribution calendar', 'Pac-Man contribution animation'),
+              'README.zh-CN.md': ('06 / 番外篇', '三维贡献日历', '吃豆人贡献动画'),
+              'README.ja.md': ('06 / 番外編', '3D コントリビューションカレンダー', 'パックマンのコントリビューションアニメーション'),
+          }
+          for name, (title, calendar, arcade) in labels.items():
+              path = Path(name)
+              text = path.read_text(encoding='utf-8')
+              marker = '<!-- contribution-art -->'
+              if marker in text:
+                  continue
+              footer = '\n---\n\n<div align="center">\n  <sub>構造から、数学へ。</sub>'
+              if footer not in text:
+                  raise RuntimeError(f'Footer not found in {name}')
+              block = f'''\n{marker}
+          ## {title}
+
+          <div align="center">
+            <img src="./assets/generated/contributions-3d.svg" alt="{calendar}" width="100%">
+            <picture>
+              <source media="(prefers-color-scheme: dark)" srcset="./assets/generated/pacman-contribution-graph-dark.svg">
+              <source media="(prefers-color-scheme: light)" srcset="./assets/generated/pacman-contribution-graph.svg">
+              <img src="./assets/generated/pacman-contribution-graph.svg" alt="{arcade}" width="100%">
+            </picture>
+            <br>
+            <sub><a href="https://github.com/yoshi389111/github-profile-3d-contrib">3D Contrib</a> · <a href="https://github.com/abozanona/pacman-contribution-graph">Pac-Man Graph</a></sub>
+          </div>
+          '''
+              path.write_text(text.replace(footer, block + footer, 1), encoding='utf-8')
+          PY
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/generated
+          git add assets/generated README.md README.zh-CN.md README.ja.md
           if git diff --cached --quiet; then exit 0; fi
           git commit -m "Refresh public contribution visualizations"
           git pull --rebase origin main
