@@ -19,9 +19,13 @@
 
 ## 01 / 自己紹介
 
+<a href="https://github.com/SpiralKernel/catgirl-avatars"><img align="right" src="https://raw.githubusercontent.com/SpiralKernel/catgirl-avatars/main/docs/assets/thumbs/fairywren/02_blue_catgirl.webp" width="138" alt="研究ノートの看板娘"></a>
+
 数学を専攻する学部生です。数学的推論と計算の背後にある構造に関心があります。数学的命題がなぜ成り立つのかだけでなく、それを自然に表現できる言語や構造についても考えています。
 
 主な関心分野は、位相数学、代数学、依存型理論、形式化数学、計算可能性、数学モデリングです。
+
+<sub><a href="https://github.com/SpiralKernel/catgirl-avatars">イラスト：SpiralKernel / Catgirl Avatars</a></sub>
 
 ## 02 / 現在の研究
 
