@@ -47,6 +47,18 @@
 
 ## GitHub の活動
 
+<!-- singularity-art -->
+<div align="center">
+  <a href="https://github.com/Dr-At0mic/README-Templates">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./assets/singularity/hero-dark.svg">
+      <img src="./assets/singularity/hero-light.svg" alt="活動記録から描いたブラックホール" width="100%">
+    </picture>
+  </a>
+  <br>
+  <sub><a href="https://github.com/Dr-At0mic/README-Templates">README Templates / Singularity</a></sub>
+</div>
+
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Liangebra&amp;theme=tokyonight">
@@ -92,6 +104,14 @@
   </picture>
   <br>
   <sub><a href="https://github.com/yoshi389111/github-profile-3d-contrib">3D Contrib</a> · <a href="https://github.com/abozanona/pacman-contribution-graph">Pac-Man Graph</a></sub>
+</div>
+
+<!-- git-bonsai -->
+<div align="center">
+  <h3>小さな盆栽</h3>
+  <a href="https://github.com/egorthinks/git-bonsai"><img src="./assets/bonsai/bonsai.gif" width="300" alt="GitHub の活動から育つ盆栽"></a>
+  <br>
+  <sub>GitHub の活動から育つ盆栽 · <a href="https://github.com/egorthinks/git-bonsai">Git Bonsai</a></sub>
 </div>
 
 ---
