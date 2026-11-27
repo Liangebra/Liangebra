@@ -22,9 +22,13 @@
   <sub><a href="https://github.com/hereisVaibhav/termfolio">Termfolio / ~/.plan</a></sub>
 </p>
 
+<p align="center"><a href="https://github.com/TheMysteriousGhost/pixel-profile"><img src="./assets/pixel-profile/divider.svg" width="100%" alt=""></a></p>
+
 ## 项目与研究
 
 ### [LeanDuet](https://github.com/Liangebra/leanduet)
+
+*数学语言与形式化*
 
 做这个项目最初是想看看能否让数学家直接用平时写数学的方式去使用 Lean。但我觉得比较困难的其实不只是语言的翻译，而是如何理解这两种语言所表达的数学结构。
 
@@ -34,16 +38,31 @@
 
 ### 理论研究与形式化数学
 
-- [Computational Metaknowledge](https://github.com/Liangebra/computational-metaknowledge)：之前做的一个关于可计算性及 Agent 能够知道什么的研究。[论文](https://github.com/Liangebra/computational-metaknowledge/blob/main/paper/ResearchReport.pdf)。
-- [黎曼猜想社区项目](https://github.com/leanprover-community/riemann-hypothesis)：主要在做一些证明可读性、数学抽象及冗余依赖方面的工作。[我的 PR](https://github.com/leanprover-community/riemann-hypothesis/pulls?q=is%3Apr+author%3ALiangebra)。
+**[Computational Metaknowledge](https://github.com/Liangebra/computational-metaknowledge)**
+
+之前做的一个关于可计算性及 Agent 能够知道什么的研究。 · [论文](https://github.com/Liangebra/computational-metaknowledge/blob/main/paper/ResearchReport.pdf)
+
+**[黎曼猜想社区项目](https://github.com/leanprover-community/riemann-hypothesis)**
+
+主要在做一些证明可读性、数学抽象及冗余依赖方面的工作。 · [我的 PR](https://github.com/leanprover-community/riemann-hypothesis/pulls?q=is%3Apr+author%3ALiangebra)
 
 ### 数学建模与软件开发
 
-- [Green Electricity SG-ABM](https://github.com/Liangebra/green-electricity-SGABM)：绿电市场的多智能体仿真模型。
-- [MathModelEvaluator](https://github.com/Liangebra/MathModelEvaluator)：之前做一道数模题时觉得这个东西挺有意思，就单独做成了工具。
-- [NuBook](https://github.com/Liangebra/Nubook)：一个自己做的极简 Android 记账本。
+**[Green Electricity SG-ABM](https://github.com/Liangebra/green-electricity-SGABM)**
+
+绿电市场的多智能体仿真模型。
+
+**[MathModelEvaluator](https://github.com/Liangebra/MathModelEvaluator)**
+
+之前做一道数模题时觉得这个东西挺有意思，就单独做成了工具。
+
+**[NuBook](https://github.com/Liangebra/Nubook)**
+
+一个自己做的极简 Android 记账本。
 
 如果对这些项目感兴趣，可以直接在对应仓库里提 Issue 或发起讨论。也很希望能和对 Lean、类型论或者数学语言感兴趣的朋友交流。
+
+<p align="center"><a href="https://github.com/TheMysteriousGhost/pixel-profile"><img src="./assets/pixel-profile/divider.svg" width="100%" alt=""></a></p>
 
 ## 开源活动
 
@@ -57,23 +76,8 @@
 </p>
 
 <!-- contribution-art -->
-<details>
-<summary>其他贡献记录与统计</summary>
 
-<p align="center">
-  <a href="https://github.com/yoshi389111/github-profile-3d-contrib"><img src="./assets/generated/contributions-3d.svg" width="100%" alt="3D contribution calendar"></a>
-  <br>
-  <sub><a href="https://github.com/yoshi389111/github-profile-3d-contrib">3D Contrib</a></sub>
-</p>
-
-<p align="center">
-  <a href="https://github.com/abozanona/pacman-contribution-graph"><picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/generated/pacman-contribution-graph-dark.svg">
-    <img src="./assets/generated/pacman-contribution-graph.svg" alt="Pac-Man contribution calendar" width="100%">
-  </picture></a>
-  <br>
-  <sub><a href="https://github.com/abozanona/pacman-contribution-graph">Pac-Man</a></sub>
-</p>
+### 贡献记录与统计
 
 <p align="center">
   <a href="https://github.com/vn7n24fzkq/github-profile-summary-cards"><picture>
@@ -97,14 +101,31 @@
   </picture>
 </p>
 
+<p align="center"><a href="https://github.com/TheMysteriousGhost/pixel-profile"><img src="./assets/pixel-profile/divider.svg" width="100%" alt=""></a></p>
+
+### 贡献记录的可视化
+
+<p align="center">
+  <a href="https://github.com/yoshi389111/github-profile-3d-contrib"><img src="./assets/generated/contributions-3d.svg" width="100%" alt="3D contribution calendar"></a>
+  <br>
+  <sub><a href="https://github.com/yoshi389111/github-profile-3d-contrib">3D Contrib</a></sub>
+</p>
+
+<p align="center">
+  <a href="https://github.com/abozanona/pacman-contribution-graph"><picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/generated/pacman-contribution-graph-dark.svg">
+    <img src="./assets/generated/pacman-contribution-graph.svg" alt="Pac-Man contribution calendar" width="100%">
+  </picture></a>
+  <br>
+  <sub><a href="https://github.com/abozanona/pacman-contribution-graph">Pac-Man</a></sub>
+</p>
+
 <!-- monkey-civilization -->
 <p align="center">
   <a href="https://github.com/jihoo12/monkeys"><img src="./assets/civilization/monkey-civilization.svg" width="100%" alt="由贡献记录驱动的像素文明"></a>
   <br>
   <sub><a href="https://github.com/jihoo12/monkeys">Monkey Civilization</a> · 由贡献记录驱动的像素文明</sub>
 </p>
-
-</details>
 
 <p align="center"><a href="https://github.com/TheMysteriousGhost/pixel-profile"><img src="./assets/pixel-profile/divider.svg" width="100%" alt=""></a></p>
 
@@ -125,13 +146,6 @@
   <a href="https://github.com/egorthinks/git-bonsai"><img src="./assets/bonsai/bonsai.gif" width="270" alt="Git Bonsai"></a>
   <br>
   <sub><a href="https://github.com/egorthinks/git-bonsai">一棵用 GitHub 记录养出来的盆景。 · Git Bonsai</a></sub>
-</p>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/singularity/end-dark.svg">
-    <img src="./assets/singularity/end-light.svg" alt="Singularity 结尾动画" width="100%">
-  </picture>
 </p>
 
 <p align="center"><sub>主题来自 README Templates 的 Singularity，其他组件均已标注来源。 <a href="https://github.com/Dr-At0mic/README-Templates">README Templates</a> · <a href="https://github.com/journey-ad/Moe-Counter">Moe Counter</a></sub></p>
