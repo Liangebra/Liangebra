@@ -16,6 +16,12 @@
 
 最近主要在做 LeanDuet，也在参与一些 Lean 的开源工作。其他一些仓库是之前做数学建模时留下的，或者只是觉得有意思就做了。
 
+<p align="center">
+  <a href="https://github.com/hereisVaibhav/termfolio"><img src="./assets/termfolio/terminal.zh-CN.svg" alt="终端：研究兴趣与目前的计划" width="100%"></a>
+  <br>
+  <sub><a href="https://github.com/hereisVaibhav/termfolio">Termfolio / ~/.plan</a></sub>
+</p>
+
 ## 项目与研究
 
 ### [LeanDuet](https://github.com/Liangebra/leanduet)
@@ -92,6 +98,8 @@
 </p>
 
 </details>
+
+<p align="center"><a href="https://github.com/TheMysteriousGhost/pixel-profile"><img src="./assets/pixel-profile/divider.svg" width="100%" alt=""></a></p>
 
 ## 盆景与猫
 
