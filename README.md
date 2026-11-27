@@ -54,11 +54,21 @@ Work on proof readability, mathematical abstraction and redundant dependencies i
 
 <a href="https://github.com/vlln/whale-girl"><img align="right" src="https://raw.githubusercontent.com/vlln/whale-girl/c3f4afb400755062991c7e9991b745b3016abeeb/docs/preview/think.gif" width="105" alt="Whale Girl thinking animation"></a>
 
-I also contribute to the [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) plugin ecosystem.
+I develop plugins for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness), with an interest in agent context management and interaction.
+
+**My plugins**
+
+[dsh-smart-compact](https://github.com/Liangebra/dsh-smart-compact) — a context compaction engine with configurable thresholds, automatic compaction, DCP-inspired pruning suggestions, and durable session-log history that preserves original events.
+
+[dsh-esc-enter](https://github.com/Liangebra/dsh-esc-enter) — an interaction plugin adding Esc cancellation and append/stop controls while preserving the host's queue semantics.
+
+**Community contributions**
 
 [whale-girl](https://github.com/vlln/whale-girl) — added a standalone desktop companion with a transparent always-on-top window and live plugin state synchronization. [Merged PR #8](https://github.com/vlln/whale-girl/pull/8).
 
 [dsh-bash-terminal](https://github.com/MAXeaglet/dsh-bash-terminal) — fixed Windows interactive terminal support through direct `node-pty` integration. [Merged PR #2](https://github.com/MAXeaglet/dsh-bash-terminal/pull/2).
+
+[dsh-agent-teams](https://github.com/NanmiCoder/dsh-agent-teams) — proposed Git-based installation fixes ([#32, open](https://github.com/NanmiCoder/dsh-agent-teams/pull/32)) and a draggable activity panel with less frequent polling ([#34, closed without merge](https://github.com/NanmiCoder/dsh-agent-teams/pull/34)).
 
 ### Modeling and software
 

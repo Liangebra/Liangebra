@@ -54,11 +54,21 @@
 
 <a href="https://github.com/vlln/whale-girl"><img align="right" src="https://raw.githubusercontent.com/vlln/whale-girl/c3f4afb400755062991c7e9991b745b3016abeeb/docs/preview/think.gif" width="105" alt="鲸鱼娘思考动画"></a>
 
-我也参与了 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 的开源插件开发。
+我也在为 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 开发插件，主要关注 Agent 的上下文管理与交互方式。
+
+**我开发的插件**
+
+[dsh-smart-compact](https://github.com/Liangebra/dsh-smart-compact)：智能上下文压缩引擎，支持可配置阈值、自动压缩、DCP 风格去重与清理建议，并通过会话日志保留原始事件。
+
+[dsh-esc-enter](https://github.com/Liangebra/dsh-esc-enter)：交互插件，支持 Esc 取消当前回合、追加与停止按钮，保留宿主的任务队列语义。
+
+**社区贡献**
 
 [whale-girl](https://github.com/vlln/whale-girl)：新增独立桌面伴侣，支持透明置顶窗口与插件状态实时同步。 [已合并的 PR #8](https://github.com/vlln/whale-girl/pull/8)。
 
 [dsh-bash-terminal](https://github.com/MAXeaglet/dsh-bash-terminal)：通过直接接入 `node-pty` 修复 Windows 交互式终端的兼容性问题。 [已合并的 PR #2](https://github.com/MAXeaglet/dsh-bash-terminal/pull/2)。
+
+[dsh-agent-teams](https://github.com/NanmiCoder/dsh-agent-teams)：提出 Git 安装构建修复（[#32，开放中](https://github.com/NanmiCoder/dsh-agent-teams/pull/32)）以及活动面板拖拽和降低轮询频率的改进（[#34，已关闭未合并](https://github.com/NanmiCoder/dsh-agent-teams/pull/34)）。
 
 ### 数学建模与软件开发
 

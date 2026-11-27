@@ -54,11 +54,21 @@
 
 <a href="https://github.com/vlln/whale-girl"><img align="right" src="https://raw.githubusercontent.com/vlln/whale-girl/c3f4afb400755062991c7e9991b745b3016abeeb/docs/preview/think.gif" width="105" alt="クジラ娘の思考アニメーション"></a>
 
-[DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) のオープンソース・プラグイン開発にも参加しています。
+[DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) のプラグインを開発しており、エージェントのコンテキスト管理と操作性に関心があります。
+
+**自作プラグイン**
+
+[dsh-smart-compact](https://github.com/Liangebra/dsh-smart-compact)：コンテキスト圧縮エンジン。しきい値の設定、自動圧縮、DCP に着想を得た重複・不要情報の整理候補を提供し、元のイベントをセッションログに保持します。
+
+[dsh-esc-enter](https://github.com/Liangebra/dsh-esc-enter)：Esc による実行中のターンのキャンセルと追加・停止ボタンを提供し、ホストのキュー処理を維持する操作性改善プラグイン。
+
+**コミュニティへの貢献**
 
 [whale-girl](https://github.com/vlln/whale-girl)：透明な常時最前面ウィンドウとプラグイン状態のリアルタイム同期を備えた独立デスクトップコンパニオンを追加。 [マージ済み PR #8](https://github.com/vlln/whale-girl/pull/8)。
 
 [dsh-bash-terminal](https://github.com/MAXeaglet/dsh-bash-terminal)：`node-pty` への直接接続により Windows の対話型端末の互換性を修正。 [マージ済み PR #2](https://github.com/MAXeaglet/dsh-bash-terminal/pull/2)。
+
+[dsh-agent-teams](https://github.com/NanmiCoder/dsh-agent-teams)：Git 経由のインストール時のビルド修正（[#32、オープン](https://github.com/NanmiCoder/dsh-agent-teams/pull/32)）と、活動パネルのドラッグ操作・ポーリング頻度の低減（[#34、未マージでクローズ](https://github.com/NanmiCoder/dsh-agent-teams/pull/34)）を提案しました。
 
 ### 数学モデリングとソフトウェア
 
