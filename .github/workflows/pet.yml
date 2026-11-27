@@ -1,0 +1,68 @@
+name: YourTomo profile pet
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '43 0,6,12,18 * * *'
+  push:
+    branches: [main]
+    paths: ['.github/workflows/pet.yml']
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-pet
+  cancel-in-progress: false
+
+jobs:
+  pet:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Generate YourTomo pixel cat
+        uses: knowprasad/YourTomo@988c75ee4f1ad5374d3ca692db4b307761776067
+        with:
+          username: Liangebra
+          display-name: Liangebra
+          timezone-offset-minutes: "480"
+          accent-color: "#9BA9D5"
+          output-dir: assets/pet
+      - name: Embed verified pet graphics in the three profiles
+        run: |
+          test -s assets/pet/pet.svg
+          test -s assets/pet/pet-light.svg
+          python - <<'PY'
+          from pathlib import Path
+          titles = {'README.md': 'My GitHub cat', 'README.zh-CN.md': 'GitHub 上的猫', 'README.ja.md': 'GitHub の猫'}
+          for file, alt in titles.items():
+              p = Path(file)
+              s = p.read_text(encoding='utf-8')
+              marker = '<!-- yourtomo-pet -->'
+              if marker in s:
+                  continue
+              pet = f'''{marker}
+          <div align="center">
+            <a href="https://github.com/knowprasad/YourTomo">
+              <picture>
+                <source media="(prefers-color-scheme: dark)" srcset="./assets/pet/pet.svg">
+                <source media="(prefers-color-scheme: light)" srcset="./assets/pet/pet-light.svg">
+                <img src="./assets/pet/pet-light.svg" alt="{alt}" width="100%">
+              </picture>
+            </a>
+          </div>
+
+          '''
+              anchor = '<!-- contribution-art -->'
+              if anchor not in s:
+                  raise RuntimeError(f'Missing contribution marker in {file}')
+              p.write_text(s.replace(anchor, pet + anchor, 1), encoding='utf-8')
+          PY
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md README.zh-CN.md README.ja.md
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Embed YourTomo profile cat [skip ci]"
+          git pull --rebase origin main
+          git push origin HEAD:main
