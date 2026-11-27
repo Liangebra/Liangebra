@@ -79,6 +79,20 @@ $$
 </div>
 
 
+<!-- contribution-art -->
+## 06 / 番外編
+
+<div align="center">
+  <img src="./assets/generated/contributions-3d.svg" alt="3D コントリビューションカレンダー" width="100%">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/generated/pacman-contribution-graph-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/generated/pacman-contribution-graph.svg">
+    <img src="./assets/generated/pacman-contribution-graph.svg" alt="パックマンのコントリビューションアニメーション" width="100%">
+  </picture>
+  <br>
+  <sub><a href="https://github.com/yoshi389111/github-profile-3d-contrib">3D Contrib</a> · <a href="https://github.com/abozanona/pacman-contribution-graph">Pac-Man Graph</a></sub>
+</div>
+
 ---
 
 <div align="center">
