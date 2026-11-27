@@ -1,0 +1,54 @@
+name: Render Atlas profile preview
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/atlas-preview.yml'
+      - 'scripts/atlas-preview.mjs'
+permissions:
+  contents: write
+concurrency:
+  group: atlas-preview
+  cancel-in-progress: false
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          repository: Dr-At0mic/README-Templates
+          ref: e76aae0334f3deed3fa87f99e0396cfdc54d2c26
+          path: .template-source
+          persist-credentials: false
+      - name: Fetch profile data
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: node scripts/template-profile.mjs "$RUNNER_TEMP/profile.json"
+      - name: Render original Atlas and preview README
+        run: |
+          sed -i "s|'../common'|'../common.js'|; s/public account in good standing/public account/g" .template-source/src/templates/intaglio/art.js
+          sed -i "s|'./pulsar/art'|'./pulsar/art.js'|" .template-source/src/templates/common.js
+          sed -i "s|'../../lib/random'|'../../lib/random.js'|" .template-source/src/templates/pulsar/art.js
+          sed -i "s|'../../lib/random'|'../../lib/random.js'|; s|'../pulsar/art'|'../pulsar/art.js'|" .template-source/src/templates/singularity/art.js
+          node scripts/atlas-preview.mjs "$RUNNER_TEMP/profile.json"
+          python - <<'PY'
+          from pathlib import Path
+          import xml.etree.ElementTree as ET
+          for path in Path('assets/atlas-preview').glob('*.svg'):
+              ET.parse(path)
+              print(path, path.stat().st_size)
+          assert len(list(Path('assets/atlas-preview').glob('*.svg'))) == 16
+          assert Path('README.atlas.md').is_file()
+          PY
+      - name: Publish preview only
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/atlas-preview README.atlas.md
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Publish original Atlas theme comparison preview"
+          git pull --rebase origin main
+          git push origin HEAD:main
