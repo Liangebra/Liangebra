@@ -54,7 +54,11 @@
 
 <!-- dsh-whale-girl-strip -->
 <p align="center">
-  <a href="https://github.com/vlln/whale-girl"><img src="https://raw.githubusercontent.com/vlln/whale-girl/c3f4afb400755062991c7e9991b745b3016abeeb/docs/preview/welcome.gif" width="60" alt="挨拶">&nbsp;<img src="https://raw.githubusercontent.com/vlln/whale-girl/c3f4afb400755062991c7e9991b745b3016abeeb/docs/preview/think.gif" width="60" alt="思考中">&nbsp;<img src="https://raw.githubusercontent.com/vlln/whale-girl/c3f4afb400755062991c7e9991b745b3016abeeb/docs/preview/working.gif" width="60" alt="作業中">&nbsp;<img src="https://raw.githubusercontent.com/vlln/whale-girl/c3f4afb400755062991c7e9991b745b3016abeeb/docs/preview/celebrate.gif" width="60" alt="お祝い">&nbsp;<img src="https://raw.githubusercontent.com/vlln/whale-girl/c3f4afb400755062991c7e9991b745b3016abeeb/docs/preview/sleep.gif" width="60" alt="お昼寝"></a>
+  <img src="./assets/characters/whale-girl/welcome.gif" width="60" height="60" alt="挨拶">
+  <img src="./assets/characters/whale-girl/think.gif" width="60" height="60" alt="思考中">
+  <img src="./assets/characters/whale-girl/working.gif" width="60" height="60" alt="作業中">
+  <img src="./assets/characters/whale-girl/celebrate.gif" width="60" height="60" alt="お祝い">
+  <img src="./assets/characters/whale-girl/sleep.gif" width="60" height="60" alt="お昼寝">
 </p>
 
 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) のプラグインを開発しており、エージェントのコンテキスト管理と操作性に関心があります。

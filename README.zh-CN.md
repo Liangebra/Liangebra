@@ -54,7 +54,11 @@
 
 <!-- dsh-whale-girl-strip -->
 <p align="center">
-  <a href="https://github.com/vlln/whale-girl"><img src="https://raw.githubusercontent.com/vlln/whale-girl/c3f4afb400755062991c7e9991b745b3016abeeb/docs/preview/welcome.gif" width="60" alt="打招呼">&nbsp;<img src="https://raw.githubusercontent.com/vlln/whale-girl/c3f4afb400755062991c7e9991b745b3016abeeb/docs/preview/think.gif" width="60" alt="思考">&nbsp;<img src="https://raw.githubusercontent.com/vlln/whale-girl/c3f4afb400755062991c7e9991b745b3016abeeb/docs/preview/working.gif" width="60" alt="工作">&nbsp;<img src="https://raw.githubusercontent.com/vlln/whale-girl/c3f4afb400755062991c7e9991b745b3016abeeb/docs/preview/celebrate.gif" width="60" alt="庆祝">&nbsp;<img src="https://raw.githubusercontent.com/vlln/whale-girl/c3f4afb400755062991c7e9991b745b3016abeeb/docs/preview/sleep.gif" width="60" alt="睡觉"></a>
+  <img src="./assets/characters/whale-girl/welcome.gif" width="60" height="60" alt="打招呼">
+  <img src="./assets/characters/whale-girl/think.gif" width="60" height="60" alt="思考">
+  <img src="./assets/characters/whale-girl/working.gif" width="60" height="60" alt="工作">
+  <img src="./assets/characters/whale-girl/celebrate.gif" width="60" height="60" alt="庆祝">
+  <img src="./assets/characters/whale-girl/sleep.gif" width="60" height="60" alt="睡觉">
 </p>
 
 我也在为 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 开发插件，主要关注 Agent 的上下文管理与交互方式。

@@ -54,7 +54,11 @@ Work on proof readability, mathematical abstraction and redundant dependencies i
 
 <!-- dsh-whale-girl-strip -->
 <p align="center">
-  <a href="https://github.com/vlln/whale-girl"><img src="https://raw.githubusercontent.com/vlln/whale-girl/c3f4afb400755062991c7e9991b745b3016abeeb/docs/preview/welcome.gif" width="60" alt="Greeting">&nbsp;<img src="https://raw.githubusercontent.com/vlln/whale-girl/c3f4afb400755062991c7e9991b745b3016abeeb/docs/preview/think.gif" width="60" alt="Thinking">&nbsp;<img src="https://raw.githubusercontent.com/vlln/whale-girl/c3f4afb400755062991c7e9991b745b3016abeeb/docs/preview/working.gif" width="60" alt="Working">&nbsp;<img src="https://raw.githubusercontent.com/vlln/whale-girl/c3f4afb400755062991c7e9991b745b3016abeeb/docs/preview/celebrate.gif" width="60" alt="Celebrating">&nbsp;<img src="https://raw.githubusercontent.com/vlln/whale-girl/c3f4afb400755062991c7e9991b745b3016abeeb/docs/preview/sleep.gif" width="60" alt="Sleeping"></a>
+  <img src="./assets/characters/whale-girl/welcome.gif" width="60" height="60" alt="Greeting">
+  <img src="./assets/characters/whale-girl/think.gif" width="60" height="60" alt="Thinking">
+  <img src="./assets/characters/whale-girl/working.gif" width="60" height="60" alt="Working">
+  <img src="./assets/characters/whale-girl/celebrate.gif" width="60" height="60" alt="Celebrating">
+  <img src="./assets/characters/whale-girl/sleep.gif" width="60" height="60" alt="Sleeping">
 </p>
 
 I develop plugins for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness), with an interest in agent context management and interaction.
