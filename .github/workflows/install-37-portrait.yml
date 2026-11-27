@@ -1,0 +1,68 @@
+name: Install 37 original portrait decoration
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/install-37-portrait.yml'
+permissions:
+  contents: write
+jobs:
+  portrait:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install Pillow
+      - name: Fetch and embed original portrait
+        run: |
+          python - <<'PY'
+          from PIL import Image
+          from pathlib import Path
+          from urllib.request import Request, urlopen
+          import base64, io, re, xml.etree.ElementTree as ET
+          url = 'https://patchwiki.biligame.com/images/reverse1999/6/6d/nwm2i6wnkit3rsgy8b6fcvx9rxb0ut4.png'
+          req = Request(url, headers={'User-Agent': 'Mozilla/5.0', 'Referer': 'https://wiki.biligame.com/reverse1999/37'})
+          with urlopen(req, timeout=25) as response:
+              raw = response.read(15_000_000)
+          img = Image.open(io.BytesIO(raw)).convert('RGBA')
+          w,h = img.size
+          assert w > 200 and h > 400 and h > w, (w,h)
+          assert img.getchannel('A').getextrema()[0] < 255, 'Expected transparent portrait'
+          # Upper-body crop, based on the original garment image composition.
+          crop = img.crop((round(w*.31), 0, round(w*.94), round(h*.345)))
+          crop.thumbnail((480,480), Image.Resampling.LANCZOS)
+          buf=io.BytesIO()
+          crop.save(buf, format='PNG', optimize=True)
+          payload=base64.b64encode(buf.getvalue()).decode('ascii')
+          cw,ch=crop.size
+          svg=f'<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="{cw}" height="{ch}" viewBox="0 0 {cw} {ch}" role="img" aria-label="37 — Reverse: 1999 original portrait"><title>37 — Reverse: 1999</title><desc>Original character art © Bluepoch; cropped from the default garment portrait archived on Bilibili Game Wiki.</desc><image width="{cw}" height="{ch}" xlink:href="data:image/png;base64,{payload}"/></svg>'
+          ET.fromstring(svg)
+          out=Path('assets/characters/37-peek.svg')
+          out.write_text(svg, encoding='utf-8')
+          for name in ('README.md','README.zh-CN.md','README.ja.md'):
+              p=Path(name)
+              s=p.read_text(encoding='utf-8')
+              s,n=re.subn(r'(src="\./assets/characters/37-peek\.svg") width="\d+"(?: height="\d+")?', r'\1 width="116"', s)
+              assert n==1,name
+              p.write_text(s,encoding='utf-8')
+          p=Path('assets/characters/README.md')
+          s=p.read_text(encoding='utf-8')
+          s=s.replace('Original hand-drawn SVG fan art for this personal profile. No official images, scans, or third-party fan-art files are embedded.', 'Shimeji decorations are original hand-drawn SVG fan art. The 37 decoration embeds a cropped raster image of the official default character artwork.')
+          s=re.sub(r'- 37: [^\n]*', '- 37: *Reverse: 1999*, original character artwork © Bluepoch. Source: https://wiki.biligame.com/reverse1999/37 (立绘 37 01.png). Cropped and embedded in an SVG without repainting.',s)
+          s=s.replace('The SVGs use transparent backgrounds, clipped peeking poses and reduced-motion CSS.','The Shimeji SVG uses reduced-motion CSS. The 37 portrait is static and transparent.')
+          p.write_text(s,encoding='utf-8')
+          print('Original:', (w,h), 'Crop:',(cw,ch), 'Embedded PNG bytes:',len(buf.getvalue()))
+          PY
+      - name: Publish decoration
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/characters/37-peek.svg assets/characters/README.md README.md README.zh-CN.md README.ja.md
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Use original Bluepoch 37 portrait for profile decoration"
+          git pull --rebase origin main
+          git push origin HEAD:main
