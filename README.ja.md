@@ -43,7 +43,12 @@
 
 過去一年間の GitHub の活動記録です。
 
-<!-- singularity-telemetry-pending -->
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/singularity/telemetry-dark.svg">
+    <img src="./assets/singularity/telemetry-light.svg" alt="過去一年の活動記録" width="100%">
+  </picture>
+</p>
 
 <!-- contribution-art -->
 <details>
@@ -107,7 +112,12 @@
   <sub><a href="https://github.com/egorthinks/git-bonsai">GitHub の活動記録から育つ盆栽。 · Git Bonsai</a></sub>
 </p>
 
-<!-- singularity-end-pending -->
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/singularity/end-dark.svg">
+    <img src="./assets/singularity/end-light.svg" alt="Singularity のエンドカード" width="100%">
+  </picture>
+</p>
 
 <p align="center"><sub>テーマは README Templates の Singularity。他のコンポーネントも出典を記載しています。 <a href="https://github.com/Dr-At0mic/README-Templates">README Templates</a> · <a href="https://github.com/journey-ad/Moe-Counter">Moe Counter</a></sub></p>
 <p align="center"><a href="https://github.com/Liangebra">English</a> &nbsp; / &nbsp; <a href="https://github.com/Liangebra/Liangebra/blob/main/README.zh-CN.md">简体中文</a> &nbsp; / &nbsp; <strong>日本語</strong></p>
