@@ -8,7 +8,15 @@
   </picture>
 </p>
 
-<p align="center"><a href="https://github.com/journey-ad/Moe-Counter"><img src="https://count.getloli.com/@Liangebra-profile?theme=asoul&amp;padding=5&amp;offset=0&amp;align=top&amp;scale=1&amp;pixelated=1&amp;darkmode=auto" alt="访客计数器" width="190"></a></p>
+<!-- opening-verse -->
+<p align="center">
+  <a href="https://github.com/DenverCoder1/readme-typing-svg"><picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com/?font=Noto%20Serif%20SC&amp;size=22&amp;duration=3800&amp;pause=4800&amp;color=B8C6DD&amp;center=true&amp;vCenter=true&amp;width=760&amp;height=48&amp;repeat=false&amp;lines=%E8%A1%8C%E5%88%B0%E6%B0%B4%E7%A9%B7%E5%A4%84%EF%BC%8C%E5%9D%90%E7%9C%8B%E4%BA%91%E8%B5%B7%E6%97%B6%E3%80%82">
+    <img src="https://readme-typing-svg.demolab.com/?font=Noto%20Serif%20SC&amp;size=22&amp;duration=3800&amp;pause=4800&amp;color=52677F&amp;center=true&amp;vCenter=true&amp;width=760&amp;height=48&amp;repeat=false&amp;lines=%E8%A1%8C%E5%88%B0%E6%B0%B4%E7%A9%B7%E5%A4%84%EF%BC%8C%E5%9D%90%E7%9C%8B%E4%BA%91%E8%B5%B7%E6%97%B6%E3%80%82" alt="行到水穷处，坐看云起时。" width="100%">
+  </picture></a>
+</p>
+
+<p align="center"><a href="https://github.com/journey-ad/Moe-Counter"><img src="https://count.getloli.com/@Liangebra-profile?theme=asoul&amp;padding=5&amp;offset=0&amp;align=top&amp;scale=1&amp;pixelated=1&amp;darkmode=auto" alt="访客计数器" width="260"></a></p>
 
 ## 研究兴趣
 

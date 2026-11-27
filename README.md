@@ -8,7 +8,15 @@
   </picture>
 </p>
 
-<p align="center"><a href="https://github.com/journey-ad/Moe-Counter"><img src="https://count.getloli.com/@Liangebra-profile?theme=asoul&amp;padding=5&amp;offset=0&amp;align=top&amp;scale=1&amp;pixelated=1&amp;darkmode=auto" alt="Visitor counter" width="190"></a></p>
+<!-- opening-verse -->
+<p align="center">
+  <a href="https://github.com/DenverCoder1/readme-typing-svg"><picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com/?font=Fira%20Code&amp;size=20&amp;duration=3800&amp;pause=4800&amp;color=B8C6DD&amp;center=true&amp;vCenter=true&amp;width=760&amp;height=48&amp;repeat=false&amp;lines=At%20the%20stream's%20end%2C%20I%20sit%20and%20watch%20the%20clouds%20rise.">
+    <img src="https://readme-typing-svg.demolab.com/?font=Fira%20Code&amp;size=20&amp;duration=3800&amp;pause=4800&amp;color=52677F&amp;center=true&amp;vCenter=true&amp;width=760&amp;height=48&amp;repeat=false&amp;lines=At%20the%20stream's%20end%2C%20I%20sit%20and%20watch%20the%20clouds%20rise." alt="At the stream's end, I sit and watch the clouds rise." width="100%">
+  </picture></a>
+</p>
+
+<p align="center"><a href="https://github.com/journey-ad/Moe-Counter"><img src="https://count.getloli.com/@Liangebra-profile?theme=asoul&amp;padding=5&amp;offset=0&amp;align=top&amp;scale=1&amp;pixelated=1&amp;darkmode=auto" alt="Visitor counter" width="260"></a></p>
 
 ## Research interests
 

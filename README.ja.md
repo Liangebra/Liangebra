@@ -8,7 +8,15 @@
   </picture>
 </p>
 
-<p align="center"><a href="https://github.com/journey-ad/Moe-Counter"><img src="https://count.getloli.com/@Liangebra-profile?theme=asoul&amp;padding=5&amp;offset=0&amp;align=top&amp;scale=1&amp;pixelated=1&amp;darkmode=auto" alt="訪問者カウンター" width="190"></a></p>
+<!-- opening-verse -->
+<p align="center">
+  <a href="https://github.com/DenverCoder1/readme-typing-svg"><picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com/?font=Noto%20Serif%20JP&amp;size=22&amp;duration=3800&amp;pause=4800&amp;color=B8C6DD&amp;center=true&amp;vCenter=true&amp;width=760&amp;height=48&amp;repeat=false&amp;lines=%E6%B0%B4%E3%81%AE%E5%B0%BD%E3%81%8D%E3%82%8B%E3%81%A8%E3%81%93%E3%82%8D%E3%80%81%E5%BA%A7%E3%81%97%E3%81%A6%E9%9B%B2%E3%81%AE%E8%B5%B7%E3%81%93%E3%82%8B%E3%82%92%E7%9C%8B%E3%82%8B%E3%80%82">
+    <img src="https://readme-typing-svg.demolab.com/?font=Noto%20Serif%20JP&amp;size=22&amp;duration=3800&amp;pause=4800&amp;color=52677F&amp;center=true&amp;vCenter=true&amp;width=760&amp;height=48&amp;repeat=false&amp;lines=%E6%B0%B4%E3%81%AE%E5%B0%BD%E3%81%8D%E3%82%8B%E3%81%A8%E3%81%93%E3%82%8D%E3%80%81%E5%BA%A7%E3%81%97%E3%81%A6%E9%9B%B2%E3%81%AE%E8%B5%B7%E3%81%93%E3%82%8B%E3%82%92%E7%9C%8B%E3%82%8B%E3%80%82" alt="水の尽きるところ、座して雲の起こるを看る。" width="100%">
+  </picture></a>
+</p>
+
+<p align="center"><a href="https://github.com/journey-ad/Moe-Counter"><img src="https://count.getloli.com/@Liangebra-profile?theme=asoul&amp;padding=5&amp;offset=0&amp;align=top&amp;scale=1&amp;pixelated=1&amp;darkmode=auto" alt="訪問者カウンター" width="260"></a></p>
 
 ## 関心分野
 

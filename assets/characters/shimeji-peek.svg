@@ -5,7 +5,7 @@
 </style>
 <defs><clipPath id="edge"><rect x="0" y="0" width="168" height="80"/></clipPath></defs>
 <g clip-path="url(#edge)" stroke-linejoin="round" stroke-linecap="round"><g transform="translate(4 4)"><g class="peek" stroke="#464853" stroke-width="1.65">
-<!-- Softly rounded chibi head, dark bob and two shimeji mushrooms. -->
+<!-- Softly rounded chibi head, dark bob and a small shimeji hair ornament. -->
 <path d="M14 76Q8 68 9 48Q8 28 23 20Q41 10 56 22Q68 33 67 57L65 78Z" fill="#363b4a"/>
 <path d="M25 23Q18 28 17 41" fill="none" stroke="#686d80" stroke-width="3"/>
 <path d="M16 48Q11 47 13 55Q14 60 19 61M59 48Q65 47 64 55Q63 60 58 61" fill="#f5dfce"/>
@@ -16,11 +16,14 @@
 <path d="M36 61Q39 62 42 61" fill="none" stroke="#8d7772" stroke-width="1.25"/>
 <path d="M22 58h5m24 0h5" stroke="#e4b6af" stroke-width="1.4"/>
 <path d="M28 72L39 77L50 72L55 80H23Z" fill="#dce7eb"/>
-<!-- Mushroom stalks and caps -->
-<path d="M24 22L25 12Q25 9 28 9L30 22M47 22L46 9Q48 6 51 9L53 24" fill="#e1d5bd"/>
-<path d="M17 12Q18 3 27 3Q36 3 38 12Q30 16 17 12Z" fill="#9e8275"/>
-<path d="M39 10Q40 0 48 0Q57 1 60 10Q50 14 39 10Z" fill="#ae9382"/>
-<path d="M20 9Q23 5 29 6M43 7Q46 3 51 4" stroke="#d7bb9e" fill="none" stroke-width="1.8"/>
+<!-- Small shimeji cluster nestled against the side of the fringe, like a hair ornament. -->
+<g transform="translate(52 23) rotate(20)" stroke-width="1.15">
+  <path d="M-5 12Q-1 8 4 5L8 13" fill="none" stroke="#c7b59e" stroke-width="2.1"/>
+  <path d="M-4 12L-4 3Q-3 1-1 3L0 11M4 12L6 0Q8-1 9 1L8 12" fill="#e1d5bd"/>
+  <path d="M-10 4Q-10-3-4-4Q3-4 3 4Q-4 7-10 4Z" fill="#a89180"/>
+  <path d="M1 1Q2-7 7-7Q14-6 15 1Q9 4 1 1Z" fill="#b29a89"/>
+  <path d="M-7 1Q-5-1-2 0M5-3Q8-4 11-2" fill="none" stroke="#e0c7ad" stroke-width="1.1"/>
+</g>
 </g></g><g transform="translate(79 6)"><g class="peek second" stroke="#66574c" stroke-width="1.55">
 <path d="M10 75Q6 66 7 48Q7 26 22 20Q38 12 52 20Q65 27 66 48L64 75Z" fill="#c49d65"/>
 <path d="M17 34Q22 25 34 23" fill="none" stroke="#e2bf86" stroke-width="3"/>
