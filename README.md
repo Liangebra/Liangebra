@@ -16,6 +16,12 @@ I'm an undergraduate studying mathematics and applied mathematics. I particularl
 
 These days I've been working on LeanDuet and contributing to Lean projects. Some of my other repositories come from mathematical modeling competitions or things I wanted to try.
 
+<p align="center">
+  <a href="https://github.com/hereisVaibhav/termfolio"><img src="./assets/termfolio/terminal.svg" alt="Terminal — interests, tools and current projects" width="100%"></a>
+  <br>
+  <sub><a href="https://github.com/hereisVaibhav/termfolio">Termfolio / ~/.plan</a></sub>
+</p>
+
 ## Projects
 
 ### [LeanDuet](https://github.com/Liangebra/leanduet)
@@ -92,6 +98,8 @@ A view of the last year, generated from GitHub activity.
 </p>
 
 </details>
+
+<p align="center"><a href="https://github.com/TheMysteriousGhost/pixel-profile"><img src="./assets/pixel-profile/divider.svg" width="100%" alt=""></a></p>
 
 ## My little garden
 
