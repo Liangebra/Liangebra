@@ -22,9 +22,13 @@
   <sub><a href="https://github.com/hereisVaibhav/termfolio">Termfolio / ~/.plan</a></sub>
 </p>
 
+<p align="center"><a href="https://github.com/TheMysteriousGhost/pixel-profile"><img src="./assets/pixel-profile/divider.svg" width="100%" alt=""></a></p>
+
 ## プロジェクトと研究
 
 ### [LeanDuet](https://github.com/Liangebra/leanduet)
+
+*数学言語と形式化*
 
 数学者が普段数学を書くような形で Lean を使えないか、と思って始めたプロジェクトです。難しいのは単なる翻訳ではなく、二つの言語が表している数学的構造を理解することだと思っています。
 
@@ -34,16 +38,31 @@
 
 ### 理論研究と形式化数学
 
-- [Computational Metaknowledge](https://github.com/Liangebra/computational-metaknowledge)：計算可能性と、エージェントが何を知り得るかについての研究。[論文](https://github.com/Liangebra/computational-metaknowledge/blob/main/paper/ResearchReport.pdf)。
-- [リーマン予想のコミュニティプロジェクト](https://github.com/leanprover-community/riemann-hypothesis)：証明の可読性、数学的抽象化、不要な依存関係の整理に取り組んでいます。[私の PR](https://github.com/leanprover-community/riemann-hypothesis/pulls?q=is%3Apr+author%3ALiangebra)。
+**[Computational Metaknowledge](https://github.com/Liangebra/computational-metaknowledge)**
+
+計算可能性と、エージェントが何を知り得るかについての研究。 · [論文](https://github.com/Liangebra/computational-metaknowledge/blob/main/paper/ResearchReport.pdf)
+
+**[リーマン予想のコミュニティプロジェクト](https://github.com/leanprover-community/riemann-hypothesis)**
+
+証明の可読性、数学的抽象化、不要な依存関係の整理に取り組んでいます。 · [私の PR](https://github.com/leanprover-community/riemann-hypothesis/pulls?q=is%3Apr+author%3ALiangebra)
 
 ### 数学モデリングとソフトウェア
 
-- [Green Electricity SG-ABM](https://github.com/Liangebra/green-electricity-SGABM)：グリーン電力市場のエージェントベースモデル。
-- [MathModelEvaluator](https://github.com/Liangebra/MathModelEvaluator)：数学モデリングの問題を解いたときに作った評価ツール。
-- [NuBook](https://github.com/Liangebra/Nubook)：自作のシンプルな Android 家計簿アプリ。
+**[Green Electricity SG-ABM](https://github.com/Liangebra/green-electricity-SGABM)**
+
+グリーン電力市場のエージェントベースモデル。
+
+**[MathModelEvaluator](https://github.com/Liangebra/MathModelEvaluator)**
+
+数学モデリングの問題を解いたときに作った評価ツール。
+
+**[NuBook](https://github.com/Liangebra/Nubook)**
+
+自作のシンプルな Android 家計簿アプリ。
 
 興味のあるプロジェクトがあれば、Issue や Discussion で気軽に話しかけてください。Lean や型理論、数学言語に関心のある方とも交流できたら嬉しいです。
+
+<p align="center"><a href="https://github.com/TheMysteriousGhost/pixel-profile"><img src="./assets/pixel-profile/divider.svg" width="100%" alt=""></a></p>
 
 ## オープンソース活動
 
@@ -57,23 +76,8 @@
 </p>
 
 <!-- contribution-art -->
-<details>
-<summary>その他の活動記録と統計</summary>
 
-<p align="center">
-  <a href="https://github.com/yoshi389111/github-profile-3d-contrib"><img src="./assets/generated/contributions-3d.svg" width="100%" alt="3D contribution calendar"></a>
-  <br>
-  <sub><a href="https://github.com/yoshi389111/github-profile-3d-contrib">3D Contrib</a></sub>
-</p>
-
-<p align="center">
-  <a href="https://github.com/abozanona/pacman-contribution-graph"><picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/generated/pacman-contribution-graph-dark.svg">
-    <img src="./assets/generated/pacman-contribution-graph.svg" alt="Pac-Man contribution calendar" width="100%">
-  </picture></a>
-  <br>
-  <sub><a href="https://github.com/abozanona/pacman-contribution-graph">Pac-Man</a></sub>
-</p>
+### 活動記録と統計
 
 <p align="center">
   <a href="https://github.com/vn7n24fzkq/github-profile-summary-cards"><picture>
@@ -97,14 +101,31 @@
   </picture>
 </p>
 
+<p align="center"><a href="https://github.com/TheMysteriousGhost/pixel-profile"><img src="./assets/pixel-profile/divider.svg" width="100%" alt=""></a></p>
+
+### 活動記録の可視化
+
+<p align="center">
+  <a href="https://github.com/yoshi389111/github-profile-3d-contrib"><img src="./assets/generated/contributions-3d.svg" width="100%" alt="3D contribution calendar"></a>
+  <br>
+  <sub><a href="https://github.com/yoshi389111/github-profile-3d-contrib">3D Contrib</a></sub>
+</p>
+
+<p align="center">
+  <a href="https://github.com/abozanona/pacman-contribution-graph"><picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/generated/pacman-contribution-graph-dark.svg">
+    <img src="./assets/generated/pacman-contribution-graph.svg" alt="Pac-Man contribution calendar" width="100%">
+  </picture></a>
+  <br>
+  <sub><a href="https://github.com/abozanona/pacman-contribution-graph">Pac-Man</a></sub>
+</p>
+
 <!-- monkey-civilization -->
 <p align="center">
   <a href="https://github.com/jihoo12/monkeys"><img src="./assets/civilization/monkey-civilization.svg" width="100%" alt="活動記録から育つピクセル文明"></a>
   <br>
   <sub><a href="https://github.com/jihoo12/monkeys">Monkey Civilization</a> · 活動記録から育つピクセル文明</sub>
 </p>
-
-</details>
 
 <p align="center"><a href="https://github.com/TheMysteriousGhost/pixel-profile"><img src="./assets/pixel-profile/divider.svg" width="100%" alt=""></a></p>
 
@@ -125,13 +146,6 @@
   <a href="https://github.com/egorthinks/git-bonsai"><img src="./assets/bonsai/bonsai.gif" width="270" alt="Git Bonsai"></a>
   <br>
   <sub><a href="https://github.com/egorthinks/git-bonsai">GitHub の活動記録から育つ盆栽。 · Git Bonsai</a></sub>
-</p>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/singularity/end-dark.svg">
-    <img src="./assets/singularity/end-light.svg" alt="Singularity のエンドカード" width="100%">
-  </picture>
 </p>
 
 <p align="center"><sub>テーマは README Templates の Singularity。他のコンポーネントも出典を記載しています。 <a href="https://github.com/Dr-At0mic/README-Templates">README Templates</a> · <a href="https://github.com/journey-ad/Moe-Counter">Moe Counter</a></sub></p>
