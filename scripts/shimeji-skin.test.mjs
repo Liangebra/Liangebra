@@ -2,7 +2,7 @@ import assert from 'node:assert/strict';
 import {renderTown} from './shimeji-skin.mjs';
 const base={username:'test',seed:'a1b2c3',contributions:394,activeDays:24,buildings:[{id:'a'},{id:'b'},{id:'c'},{id:'d'},{id:'e'}]};
 for(const state of [base,{...base,contributions:0,activeDays:0,buildings:[]}]){
-  for(const event of Array.from({length:19},(_,i)=>i)){
+  for(const event of Array.from({length:26},(_,i)=>i)){
     for(const lang of ['en','zh-CN','ja']){
       const svg=renderTown(state,lang,'2026-11-27T06',event);
       assert.equal(svg,renderTown(state,lang,'2026-11-27T06',event));
@@ -15,13 +15,16 @@ for(const state of [base,{...base,contributions:0,activeDays:0,buildings:[]}]){
       assert.ok(svg.includes('data-character="majime"'));
       assert.ok(svg.includes('class="cloud'));
       assert.ok(svg.length>30000);
+      assert.ok(svg.includes('data-action='));
+      assert.ok(svg.includes('class="town-frame-a"'));
+      assert.ok(svg.includes('class="town-frame-b"'));
     }
   }
 }
 assert.notEqual(renderTown(base,'en','2026-11-27T06',0),renderTown(base,'en','2026-11-27T06',1));
 assert.notEqual(renderTown(base,'en','2026-11-27T06',1),renderTown(base,'zh-CN','2026-11-27T06',1));
 assert.throws(()=>renderTown({...base,contributions:-1},'en','2026-11-27T06'));
-const guests={2:['sumida','yomikawa'],12:['sis'],13:['sumida'],14:['yomikawa'],15:['mogawa'],16:['gardener'],17:['chito','yuuri'],18:['sumida','yomikawa','mogawa']};
+const guests={2:['sumida','yomikawa'],12:['sis'],13:['sumida'],14:['yomikawa'],15:['mogawa'],16:['gardener'],17:['chito','yuuri'],18:['sumida','yomikawa','mogawa'],20:['yomikawa'],21:['sis','sumida','mogawa'],25:['chito','yuuri']};
 for(const [event,cast] of Object.entries(guests)){
   const svgs=['en','zh-CN','ja'].map(lang=>renderTown(base,lang,'2026-11-27T06',Number(event)));
   for(const svg of svgs) for(const k of cast) assert.ok(svg.includes('data-character="'+k+'"'));
@@ -30,4 +33,9 @@ for(const [event,cast] of Object.entries(guests)){
   assert.equal(geometry(svgs[0]),geometry(svgs[1]));
   assert.equal(geometry(svgs[0]),geometry(svgs[2]));
 }
-console.log('114 deterministic locale/event renders, edge cases, and validation passed.');
+assert.ok(renderTown(base,'en','2026-11-27T06',0).includes('class="town-route"'));
+assert.ok(renderTown(base,'en','2026-11-27T06',21).includes('class="excavator-arm"'));
+assert.ok(renderTown(base,'en','2026-11-27T06',22).includes('class="town-water"'));
+assert.ok(renderTown(base,'en','2026-11-27T06',2).includes('data-action="dig"'));
+assert.ok(renderTown(base,'en','2026-11-27T06',13).includes('data-action="write"'));
+console.log('156 deterministic locale/event renders, edge cases, and validation passed.');
