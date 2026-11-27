@@ -107,7 +107,7 @@ export function renderTown(state, locale, slot, forcedEvent=null){
   // also occur during ordinary events; the seed is independent of locale.
   const guests={2:["sumida","yomikawa"],12:["sis"],13:["sumida"],14:["yomikawa"],15:["mogawa"],16:["gardener"],17:["chito","yuuri"],18:["sumida","yomikawa","mogawa"]};
   const guestPool=place===1?["sis","chito","yuuri","gardener"]:["sumida","yomikawa","mogawa","gardener"];
-  const present=guests[event]|| (rnd()<.48?[guestPool[Math.floor(rnd()*guestPool.length)]]:[]);
+  const present=guests[event]|| ([0,11].includes(event)?[]:[guestPool[Math.floor(rnd()*guestPool.length)]]);
   const charIndex={sis:2,sumida:3,yomikawa:4,mogawa:5,gardener:6,chito:7,yuuri:8};
   const castNames=[...t.characters.slice(0,2),...present.map(k=>t.characters[charIndex[k]])];
   const xs=present.length===3?[205,620,790]:present.length===2?[225,650]:[640];
