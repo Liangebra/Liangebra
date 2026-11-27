@@ -21,7 +21,7 @@ export function renderTown(state, locale, slot, forcedEvent=null){
   const event=forcedEvent===null?Math.floor(rnd()*t.events.length):forcedEvent;
   if(!Number.isInteger(event)||event<0||event>=t.events.length)throw Error("Invalid event");
   if([2,15,18].includes(event))place=2;
-  if([12,17].includes(event)&&locations===3)place=1;
+  if([12,17].includes(event))place=1;
   if([13,14].includes(event))place=0;
   if(event===19)place=3;
   if(event===20||event===25)place=4;
