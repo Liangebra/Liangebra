@@ -97,6 +97,13 @@
   </picture>
 </p>
 
+<!-- monkey-civilization -->
+<p align="center">
+  <a href="https://github.com/jihoo12/monkeys"><img src="./assets/civilization/monkey-civilization.svg" width="100%" alt="由贡献记录驱动的像素文明"></a>
+  <br>
+  <sub><a href="https://github.com/jihoo12/monkeys">Monkey Civilization</a> · 由贡献记录驱动的像素文明</sub>
+</p>
+
 </details>
 
 <p align="center"><a href="https://github.com/TheMysteriousGhost/pixel-profile"><img src="./assets/pixel-profile/divider.svg" width="100%" alt=""></a></p>

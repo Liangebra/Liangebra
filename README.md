@@ -97,6 +97,13 @@ A view of the last year, generated from GitHub activity.
   </picture>
 </p>
 
+<!-- monkey-civilization -->
+<p align="center">
+  <a href="https://github.com/jihoo12/monkeys"><img src="./assets/civilization/monkey-civilization.svg" width="100%" alt="A pixel civilization grown from contributions"></a>
+  <br>
+  <sub><a href="https://github.com/jihoo12/monkeys">Monkey Civilization</a> · A pixel civilization grown from contributions</sub>
+</p>
+
 </details>
 
 <p align="center"><a href="https://github.com/TheMysteriousGhost/pixel-profile"><img src="./assets/pixel-profile/divider.svg" width="100%" alt=""></a></p>
