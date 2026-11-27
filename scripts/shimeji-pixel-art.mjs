@@ -46,7 +46,7 @@ export function renderPixelTown({state,t,locale,slot,event,place,locations,prese
     let a=groundShadow(x,base,82,p)+R(x-49,base-h-2,98,h+2,p.outline)+R(x-47,base-h,94,h,p.brickLight)+brickPattern(x-46,base-h+3,91,h-4,p,7);
     a+=R(x-52,base-h-7,104,9,p.roofDark)+R(x-50,base-h-9,100,4,p.roof)+R(x-37,base-h+8,74,13,p.woodDark)+R(x-35,base-h+10,70,9,p.plaster);
     for(let j=0;j<7;j++)a+=R(x-47+j*14,base-h+24,14,9,j%2?'#e4d4ad':'#8ca7a3');
-    a+=pixelWindow(x-35,base-h+38,28,24,p,{lit:true,sill:true})+pixelDoor(x+13,base-31,21,30,p,p.roofDark)+crate(x-32,base,.8,p)+flowers(x+34,base,p,.9);
+    a+=pixelWindow(x-35,base-h+38,28,24,p,{lit:true,sill:true})+pixelDoor(x+13,base-31,21,30,p,p.roofDark)+crate(x-32,base,p,.8)+flowers(x+34,base,p,.9);
     lights.push({x:x-21,y:base-h+48,radius:33,color:p.windowGlow});
     return a;
   }
@@ -69,7 +69,7 @@ export function renderPixelTown({state,t,locale,slot,event,place,locations,prese
   }else{
     town+=school(190,460,240)+fence(56,467,285)+tree(375,460,1.15,p)+R(430,435,266,30,p.dirt)+R(430,435,266,3,p.grassDark)+fence(435,446,252)+ellipse(562,456,47,12,p.dirtDark)+ellipse(562,455,34,8,p.outline)+ellipse(562,454,23,4,p.shadow)+rockCluster(612,461,1.15,p)+shop(770,465)+tree(893,461,1.3,p);
   }
-  for(const x of [27,418,718,938]){town+=lampPost(x,479,p,53);lights.push({x,y:426,radius:39,color:p.windowGlow});}
+  for(const x of [27,418,718,938]){town+=group(x,479,lampPost(0,0,p,53));lights.push({x,y:426,radius:39,color:p.windowGlow});}
   for(const x of [118,323,589,855])town+=grassTuft(x,476,8,p)+flowers(x+10,474,p,.8);
   town+=bush(12,480,1.05,p)+bush(944,479,1.1,p);
   // Power lines sit behind the sprites. Integer steps give a fine pixel silhouette.
