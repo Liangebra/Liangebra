@@ -22,9 +22,13 @@ These days I've been working on LeanDuet and contributing to Lean projects. Some
   <sub><a href="https://github.com/hereisVaibhav/termfolio">Termfolio / ~/.plan</a></sub>
 </p>
 
+<p align="center"><a href="https://github.com/TheMysteriousGhost/pixel-profile"><img src="./assets/pixel-profile/divider.svg" width="100%" alt=""></a></p>
+
 ## Projects
 
 ### [LeanDuet](https://github.com/Liangebra/leanduet)
+
+*Mathematical language and formalization*
 
 I started this project because I wanted to write mathematics naturally while still being able to work with Lean. The difficult part, I think, is not just translating sentences into code, but understanding what mathematical structure both expressions refer to.
 
@@ -34,16 +38,31 @@ The idea is to let the two expressions share a mathematical structure and allow 
 
 ### Theory and formalization
 
-- [Computational Metaknowledge](https://github.com/Liangebra/computational-metaknowledge) — A small research project on computability and what an agent can know. [Paper](https://github.com/Liangebra/computational-metaknowledge/blob/main/paper/ResearchReport.pdf).
-- [Riemann Hypothesis community project](https://github.com/leanprover-community/riemann-hypothesis) — I've been working on proof readability, mathematical abstraction and redundant dependencies. [My PRs](https://github.com/leanprover-community/riemann-hypothesis/pulls?q=is%3Apr+author%3ALiangebra).
+**[Computational Metaknowledge](https://github.com/Liangebra/computational-metaknowledge)**
+
+Computability and what an agent can know. · [Paper](https://github.com/Liangebra/computational-metaknowledge/blob/main/paper/ResearchReport.pdf)
+
+**[Riemann Hypothesis community project](https://github.com/leanprover-community/riemann-hypothesis)**
+
+Work on proof readability, mathematical abstraction and redundant dependencies in the Lean community project. · [My PRs](https://github.com/leanprover-community/riemann-hypothesis/pulls?q=is%3Apr+author%3ALiangebra)
 
 ### Modeling and software
 
-- [Green Electricity SG-ABM](https://github.com/Liangebra/green-electricity-SGABM) — An agent-based model of the green electricity market.
-- [MathModelEvaluator](https://github.com/Liangebra/MathModelEvaluator) — A tool that grew out of a mathematical modeling problem.
-- [NuBook](https://github.com/Liangebra/Nubook) — A small Android bookkeeping app.
+**[Green Electricity SG-ABM](https://github.com/Liangebra/green-electricity-SGABM)**
+
+An agent-based model of the green electricity market.
+
+**[MathModelEvaluator](https://github.com/Liangebra/MathModelEvaluator)**
+
+A tool that grew out of a mathematical modeling problem.
+
+**[NuBook](https://github.com/Liangebra/Nubook)**
+
+A small Android bookkeeping app.
 
 If you're interested in any of these, feel free to open an issue or discussion. I'd also like to hear from people interested in Lean, type theory or mathematical language.
+
+<p align="center"><a href="https://github.com/TheMysteriousGhost/pixel-profile"><img src="./assets/pixel-profile/divider.svg" width="100%" alt=""></a></p>
 
 ## GitHub activity
 
@@ -57,23 +76,8 @@ A view of the last year, generated from GitHub activity.
 </p>
 
 <!-- contribution-art -->
-<details>
-<summary>Other activity views</summary>
 
-<p align="center">
-  <a href="https://github.com/yoshi389111/github-profile-3d-contrib"><img src="./assets/generated/contributions-3d.svg" width="100%" alt="3D contribution calendar"></a>
-  <br>
-  <sub><a href="https://github.com/yoshi389111/github-profile-3d-contrib">3D Contrib</a></sub>
-</p>
-
-<p align="center">
-  <a href="https://github.com/abozanona/pacman-contribution-graph"><picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/generated/pacman-contribution-graph-dark.svg">
-    <img src="./assets/generated/pacman-contribution-graph.svg" alt="Pac-Man contribution calendar" width="100%">
-  </picture></a>
-  <br>
-  <sub><a href="https://github.com/abozanona/pacman-contribution-graph">Pac-Man</a></sub>
-</p>
+### Contribution statistics
 
 <p align="center">
   <a href="https://github.com/vn7n24fzkq/github-profile-summary-cards"><picture>
@@ -97,14 +101,31 @@ A view of the last year, generated from GitHub activity.
   </picture>
 </p>
 
+<p align="center"><a href="https://github.com/TheMysteriousGhost/pixel-profile"><img src="./assets/pixel-profile/divider.svg" width="100%" alt=""></a></p>
+
+### Contribution visualizations
+
+<p align="center">
+  <a href="https://github.com/yoshi389111/github-profile-3d-contrib"><img src="./assets/generated/contributions-3d.svg" width="100%" alt="3D contribution calendar"></a>
+  <br>
+  <sub><a href="https://github.com/yoshi389111/github-profile-3d-contrib">3D Contrib</a></sub>
+</p>
+
+<p align="center">
+  <a href="https://github.com/abozanona/pacman-contribution-graph"><picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/generated/pacman-contribution-graph-dark.svg">
+    <img src="./assets/generated/pacman-contribution-graph.svg" alt="Pac-Man contribution calendar" width="100%">
+  </picture></a>
+  <br>
+  <sub><a href="https://github.com/abozanona/pacman-contribution-graph">Pac-Man</a></sub>
+</p>
+
 <!-- monkey-civilization -->
 <p align="center">
   <a href="https://github.com/jihoo12/monkeys"><img src="./assets/civilization/monkey-civilization.svg" width="100%" alt="A pixel civilization grown from contributions"></a>
   <br>
   <sub><a href="https://github.com/jihoo12/monkeys">Monkey Civilization</a> · A pixel civilization grown from contributions</sub>
 </p>
-
-</details>
 
 <p align="center"><a href="https://github.com/TheMysteriousGhost/pixel-profile"><img src="./assets/pixel-profile/divider.svg" width="100%" alt=""></a></p>
 
@@ -125,13 +146,6 @@ A view of the last year, generated from GitHub activity.
   <a href="https://github.com/egorthinks/git-bonsai"><img src="./assets/bonsai/bonsai.gif" width="270" alt="Git Bonsai"></a>
   <br>
   <sub><a href="https://github.com/egorthinks/git-bonsai">A bonsai grown from my GitHub history. · Git Bonsai</a></sub>
-</p>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/singularity/end-dark.svg">
-    <img src="./assets/singularity/end-light.svg" alt="End of transmission" width="100%">
-  </picture>
 </p>
 
 <p align="center"><sub>Artwork: README Templates / Singularity. Thanks to the projects linked above. <a href="https://github.com/Dr-At0mic/README-Templates">README Templates</a> · <a href="https://github.com/journey-ad/Moe-Counter">Moe Counter</a></sub></p>
