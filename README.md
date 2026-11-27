@@ -1,6 +1,8 @@
 <div align="center">
   <img src="./assets/cover.svg" alt="Liangebra — Understanding mathematics through structure" width="100%">
   <br>
+  <strong>English</strong> &nbsp; | &nbsp; <a href="https://github.com/Liangebra/Liangebra/blob/main/README.zh-CN.md">简体中文</a> &nbsp; | &nbsp; <a href="https://github.com/Liangebra/Liangebra/blob/main/README.ja.md">日本語</a>
+  <br><br>
   <sub>Mathematics undergraduate · Formal mathematics · Mathematical language · Scientific computing</sub>
   <br><br>
   <a href="https://github.com/Liangebra/leanduet">LeanDuet</a> &nbsp; / &nbsp;
@@ -48,21 +50,12 @@ I am interested in making formal mathematics readable, mathematically meaningful
 
 I welcome discussions and collaboration on mathematical language, formalization, and open research tools.
 
-<details>
-<summary>中文 / 关于我</summary>
-
-我是数学与应用数学专业本科生，关注数学推理与计算背后的结构，尤其对拓扑、代数、数学语言、依赖类型论、形式化数学与可计算性感兴趣。
-
-目前主要推进 LeanDuet 项目，探索自然数学语言与 Lean 如何通过共享数学语义结构实现双向编辑，同时参与 Lean 社区的形式化证明重构和可读性改进。
-
-欢迎交流数学、形式化研究与开源科研工具。
-
-</details>
-
 ---
 
 <div align="center">
   <sub>構造から、数学へ。</sub>
   <br>
   <i>From mathematical ideas to executable structures.</i>
+  <br><br>
+  <strong>English</strong> &nbsp; | &nbsp; <a href="https://github.com/Liangebra/Liangebra/blob/main/README.zh-CN.md">简体中文</a> &nbsp; | &nbsp; <a href="https://github.com/Liangebra/Liangebra/blob/main/README.ja.md">日本語</a>
 </div>
