@@ -43,7 +43,12 @@ If you're interested in any of these, feel free to open an issue or discussion. 
 
 A view of the last year, generated from GitHub activity.
 
-<!-- singularity-telemetry-pending -->
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/singularity/telemetry-dark.svg">
+    <img src="./assets/singularity/telemetry-light.svg" alt="Activity over the past year" width="100%">
+  </picture>
+</p>
 
 <!-- contribution-art -->
 <details>
@@ -107,7 +112,12 @@ A view of the last year, generated from GitHub activity.
   <sub><a href="https://github.com/egorthinks/git-bonsai">A bonsai grown from my GitHub history. · Git Bonsai</a></sub>
 </p>
 
-<!-- singularity-end-pending -->
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/singularity/end-dark.svg">
+    <img src="./assets/singularity/end-light.svg" alt="End of transmission" width="100%">
+  </picture>
+</p>
 
 <p align="center"><sub>Artwork: README Templates / Singularity. Thanks to the projects linked above. <a href="https://github.com/Dr-At0mic/README-Templates">README Templates</a> · <a href="https://github.com/journey-ad/Moe-Counter">Moe Counter</a></sub></p>
 <p align="center"><strong>English</strong> &nbsp; / &nbsp; <a href="https://github.com/Liangebra/Liangebra/blob/main/README.zh-CN.md">简体中文</a> &nbsp; / &nbsp; <a href="https://github.com/Liangebra/Liangebra/blob/main/README.ja.md">日本語</a></p>
