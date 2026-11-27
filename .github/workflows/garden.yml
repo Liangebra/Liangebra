@@ -56,72 +56,27 @@ jobs:
           mkdir -p assets/singularity
           node --input-type=module - "$RUNNER_TEMP/profile.json" <<'JS'
           import { readFileSync, writeFileSync } from 'node:fs';
-          import { heroSvg } from './.template-source/src/templates/singularity/art.js';
+          import { heroSvg, telemetrySvg, transmissionEndSvg } from './.template-source/src/templates/singularity/art.js';
           const profile = JSON.parse(readFileSync(process.argv[2], 'utf8'));
           for (const theme of ['dark', 'light']) {
-            const svg = heroSvg(profile, theme, { missionName: 'Mathematics' });
-            if (!svg.includes('<svg') || !svg.includes('</svg>')) throw Error('Invalid SVG');
-            writeFileSync('assets/singularity/hero-' + theme + '.svg', svg);
+            const opts = { missionName: 'Mathematics', signoff: 'See you around' };
+            const panels = { hero: heroSvg(profile, theme, opts), telemetry: telemetrySvg(profile, theme, opts), end: transmissionEndSvg(profile, theme, opts) };
+            for (const [name, svg] of Object.entries(panels)) {
+              if (!svg.includes('<svg') || !svg.includes('</svg>') || /(?:NaN|undefined|Infinity)/.test(svg)) throw Error('Invalid SVG: ' + name);
+              writeFileSync('assets/singularity/' + name + '-' + theme + '.svg', svg);
+            }
           }
           JS
-      - name: Publish generated artwork and localized links
+      - name: Publish generated artwork
         env:
           BONSAI_OK: ${{ steps.bonsai.outcome }}
           TEMPLATE_OK: ${{ steps.render.outcome }}
         run: |
-          python - <<'PY'
-          import os
-          from pathlib import Path
-          bonsai = Path('assets/bonsai/bonsai.gif')
-          garden = os.environ['BONSAI_OK'] == 'success' and bonsai.is_file() and bonsai.stat().st_size > 0
-          sky = os.environ['TEMPLATE_OK'] == 'success' and all(Path(f'assets/singularity/hero-{t}.svg').is_file() for t in ('dark', 'light'))
-          labels = {
-              'README.md': ('My little bonsai', 'A tree grown from my GitHub activity', 'Activity as a black hole'),
-              'README.zh-CN.md': ('我的小盆景', '用 GitHub 活动养出来的一棵树', '用贡献记录生成的黑洞'),
-              'README.ja.md': ('小さな盆栽', 'GitHub の活動から育つ盆栽', '活動記録から描いたブラックホール'),
-          }
-          for name, (title, alt, sky_alt) in labels.items():
-              p = Path(name)
-              s = p.read_text(encoding='utf-8')
-              if sky and '<!-- singularity-art -->' not in s:
-                  anchor = s.index('\n<div align="center">', s.index('## GitHub'))
-                  art = f'''
-          <!-- singularity-art -->
-          <div align="center">
-            <a href="https://github.com/Dr-At0mic/README-Templates">
-              <picture>
-                <source media="(prefers-color-scheme: dark)" srcset="./assets/singularity/hero-dark.svg">
-                <img src="./assets/singularity/hero-light.svg" alt="{sky_alt}" width="100%">
-              </picture>
-            </a>
-            <br>
-            <sub><a href="https://github.com/Dr-At0mic/README-Templates">README Templates / Singularity</a></sub>
-          </div>
-          '''
-                  s = s[:anchor] + art + s[anchor:]
-              if garden and '<!-- git-bonsai -->' not in s:
-                  footer = s.rfind('\n---\n')
-                  if footer < 0: raise RuntimeError('Missing footer in ' + name)
-                  art = f'''
-          <!-- git-bonsai -->
-          <div align="center">
-            <h3>{title}</h3>
-            <a href="https://github.com/egorthinks/git-bonsai"><img src="./assets/bonsai/bonsai.gif" width="300" alt="{alt}"></a>
-            <br>
-            <sub>{alt} · <a href="https://github.com/egorthinks/git-bonsai">Git Bonsai</a></sub>
-          </div>
-          '''
-                  s = s[:footer] + art + s[footer:]
-              p.write_text(s, encoding='utf-8')
-          if not garden and not sky:
-              raise RuntimeError('Neither artwork generator completed successfully')
-          PY
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           if [ "$BONSAI_OK" = success ] && [ -s assets/bonsai/bonsai.gif ]; then git add assets/bonsai; fi
-          if [ "$TEMPLATE_OK" = success ]; then git add assets/singularity; fi
-          git add README.md README.zh-CN.md README.ja.md
+          if [ "$TEMPLATE_OK" = success ]; then git add assets/singularity; else echo "Singularity renderer failed"; exit 1; fi
           if git diff --cached --quiet; then exit 0; fi
-          git commit -m "Refresh profile garden and Singularity artwork"
+          git commit -m "Refresh profile garden and full Singularity artwork"
           git pull --rebase origin main
           git push origin HEAD:main
